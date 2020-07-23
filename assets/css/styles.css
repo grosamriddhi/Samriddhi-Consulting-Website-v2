@@ -2437,8 +2437,6 @@ a.text-dark:hover, a.text-dark:focus { color: #0b0e0c !important; }
 
 body { min-height: 75rem; padding-top: 5rem; padding-bottom: 4.25rem; }
 
-.parallax { /* Create the parallax scrolling effect */ background-color: #cccccc; background-attachment: fixed; background-position: bottom right; background-repeat: no-repeat; background-size: cover; }
-
 .masthead { max-height: 80vh; object-fit: cover; -webkit-filter: blur(5px); filter: blur(5px); }
 
 @media (orientation: portrait) and (max-aspect-ratio: 0.6) { .masthead { max-height: 50vh; } }
