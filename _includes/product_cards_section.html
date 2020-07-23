@@ -1,0 +1,20 @@
+
+<div class="col">
+  <div class="card border-0 h-100 text-center">
+    <img <img
+      srcset="{{ product.cover | replace: 'post', 'post550'}} 550w,
+              {{ product.cover | replace: 'post', 'post750'}} 750w
+              {{product.cover}} 1200w"
+      src="{{ product.cover }}"
+      sizes ="(max-width:650px) 550w, 750w, 1200w"
+      class="card-img-top" alt="{{product.coveralt}}">
+    <div class="card-body">
+      <h3 class="card-title">{{product.title}}</h3>
+      <p class="card-text">{{product.subtitle}}</p>
+      <a href="{{product.url}}" class="stretched-link"></a>
+    </div>
+    <div class="card-footer text-muted d-flex justify-content-around">
+      <a class="text-secondary">#{{product.category}}</a>
+    </div>
+  </div>
+</div>

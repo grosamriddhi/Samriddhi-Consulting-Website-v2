@@ -1,0 +1,23 @@
+<!-- build a sidear Nav which switches into a menu -->
+<nav class="nav navbar-light navbar-expand-lg">
+  <button class="navbar-toggler mp-1" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"> </span>
+    <span>Resources</span>
+  </button>
+  <ul class="nav nav-pills flex-column collapse navbar-collapse" id="navbarTogglerDemo03">
+    {% assign mydocs = site.resources | group_by: 'category' %}
+    {% for cat in mydocs %}
+    <li class="nav-item">
+      <a class="nav-link">{{ cat.name }}</a>
+      <li>
+        <ul class="nav nav-pills flex-column">
+          {% assign items = cat.items %}
+          {% for item in items %}
+          <li class="nav-item">
+            <a href="{{ item.url }}" class="nav-link ml-3 my-1 {% if page.title == item.title %} active {% endif %}">{{ item.title }}</a>
+          </li>
+          {% endfor %}
+        </ul>
+        {% endfor %}
+      </ul>
+    </nav>

@@ -1,0 +1,74 @@
+---
+layout: default
+---
+<div class="container-fluid card border-0">
+  <img src="{{ page.cover }}" class="masthead" alt="{{ page.coveralt }}">
+  <div class="card-img-overlay">
+    <div class="jumbotron w-75 mx-auto bg-white text-black text-center mt-5">
+      <h1 class="display-4">{{ page.title }}</h1>
+      <hr>
+      <h2 class="text-center text-muted">{{page.subtitle}}</h2>
+    </div>
+  </div>
+</div>
+<section class="container-fluid mt-4 pt-2">
+  <div class="row">
+    <div class="col-12">
+      <section class="float-right col-md-4">
+        <div class="container text-justify">
+            {% include resource_form.html %}
+        </div>
+      </section>
+    <main>
+      <h1 class="d-none">{{ page.title }}</h1>
+      <h2 class="d-none">{{page.subtitle}}</h2>
+      <article class="container-fluid text-black">
+        <p class="lead text-justify">
+          {{ content }}
+        </p>
+      </article>
+    </main>
+    </div>
+  </div>
+</section>
+<section>
+  <div class="container-fluid">
+    <h2 class="display-4 text-center">
+      {% if page.category != page.title %}
+      {% assign filtered_products = site.products | where: 'featured', true %}
+      Featured
+      {% else %}
+      {% assign filtered_products = site.products | where: 'category', page.category %}
+      Related
+      {% endif %}
+      Products</h2>
+      <div class="container-fluid">
+        <div class="row row-cols-1 row-cols-md-3 row-cols-lg-4 my-4 justify-content-around">
+          {% for product in filtered_products %}
+          {% include product_cards_section.html %}
+          {% endfor %}
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!--stuff we found interesting -->
+  <div class="container-fluid">
+    <h2 class="display-4 text-center my-4">Related Posts</h2>
+    <div class="card-columns">
+      {% assign rel_post = site.posts | where: 'category', page.category %}
+      {% for post in rel_post %}
+      <div class="card mb-4">
+        <img src="{{post.cover}}" class="card-img-top" alt="{{post.coveralt}}">
+        <div class="card-body">
+          <h3 class="card-title">{{post.title}}</h3>
+          <p class="card-text">{{post.subtitle}}</p>
+          <a href="{{post.url}}" class="stretched-link"></a>
+        </div>
+        <div class="card-footer text-muted d-flex justify-content-around">
+          <a class="text-secondary">#Category</a>
+        </div>
+      </div>
+      {% endfor %}
+    </div>
+  </div>
