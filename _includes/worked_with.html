@@ -1,0 +1,23 @@
+<div class="container-fluid">
+  <h2 class="display-4 text-center">We have been associated with</h2>
+  <div id="workedWithCarousel" class="carousel slide carousel-fade" data-ride="carousel">
+    <ol class="carousel-indicators pb-0">
+      {% for item in site.data.worked_with.enjoy %}
+      <li data-target="#workedWithCarousel" data-slide-to="{{forloop.index | minus: 1}}" {% if forloop.index == 1 %} class="active" {% endif %}></li>
+    {% endfor %}
+  </ol>
+  <div class="carousel-inner w-75 mx-auto border border-secondary rounded h-100">
+    {% for item in site.data.worked_with.enjoy %}
+    {% include worked_with_carousel_inner.html %}
+    {% endfor %}
+  </div>
+  <a class="carousel-control-prev" href="#workedWithCarousel" role="button" data-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="sr-only">Previous</span>
+  </a>
+  <a class="carousel-control-next" href="#workedWithCarousel" role="button" data-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="sr-only">Next</span>
+  </a>
+</div>
+</div>

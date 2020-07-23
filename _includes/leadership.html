@@ -1,0 +1,34 @@
+<div class="container-fluid px-0 mx-0">
+  <div class="container-fluid d-flex justify-content-center align-items-center mt-0 mx-0 bg-dark">
+    <h2 class="display-1 text-white">Leadership</h2>
+  </div>
+  <div class="container-fluid">
+    <div class="row row-cols-1 row-cols-md-2 bg-white my-2">
+      {% for authorlist in site.authors %}
+      {% assign author = site.data.people[authorlist.short_name] %}
+      <div class="col card">
+        <div class="row no-gutters">
+          <img src="{{author.image}}" class="card-img col-md-4" alt="Profile Picture of {{author.firstname}} {{author.lastname}}">
+          <div class="col-md-8 justify-content-between">
+            <div class="card-body">
+              <h2 class="card-title">{{author.lastname}}, {{ author.firstname }}</h2>
+              <p class="card-text card-subtitle">{{ author.position }}</p>
+              {% for item in author.also %}
+                <span class="card-text text-muted"> {{item}} | </span>
+              {% endfor %}
+            </div>
+            <div class="card-footer row d-flex justify-content-around">
+                  <a class="col-4" href="{{author.linkedin}}">
+                      <img src="\assets\images\LI-In-Bug.png" height="30px">
+                  </a>
+                  <a class="col-4" href="https://twitter.com/{{author.twitter}}">
+                      <img src="\assets\images\Twitter_Logo_Blue.svg" height="30px">
+                  </a>
+              </div>
+          </div>
+        </div>
+      </div>
+      {% endfor %}
+    </div>
+  </div>
+</div>

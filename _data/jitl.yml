@@ -1,0 +1,29 @@
+characteristics:
+  - Aligned to the desired organisational results
+  - Easily accessible
+  - Appropriate to the objective and intended performance
+  - Realistic and relevant
+  - Tied to an overall learning/ performance strategy
+  - Inherent value (WIIFM) is clear to the learner
+  - Based on a single knowledge/ skill dimension
+  - Focused
+  - Creative, intriguing and inspirational
+  - “Pull” based
+
+formats:
+  - title: Mindmaps
+    icon: diagram-3
+  - title: Podcasts
+    icon: headphones
+  - title: eBooks
+    icon: book
+  - title: Mobile Apps
+    icon: app-indicator
+  - title: Videos
+    icon: film
+  - title: Digital Flashcards
+    icon: card-heading
+  - title: Blogs
+    icon: window
+  - title: Curated Resource Portal
+    icon: collection

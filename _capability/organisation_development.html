@@ -1,0 +1,129 @@
+---
+layout: default
+category: Organisation Development
+title: Organisation Development
+subtitle: Take your organisation to the next growth orbit through sharp interventions
+cover: \assets\images\organisation_development-post.jpg
+coveralt: Black and White photo of a sharp pencil and pencil shavings
+credits: https://unsplash.com/@jessbaileydesigns
+endpoint: #
+featured: yes
+---
+<div class="container-fluid card border-0">
+  <img src="{{ page.cover }}" class="masthead" alt="{{ page.coveralt }}">
+  <div class="card-img-overlay">
+    <div class="jumbotron w-75 mx-auto bg-white text-black text-center mt-5">
+      <h1 class="display-4">{{ page.title }}</h1>
+      <h2 class="lead mx-auto">{{page.subtitle}}</h2>
+    </div>
+  </div>
+</div>
+<br class="my-4">
+
+<div class="jumbotron jumbotron-fluid my-4">
+  <div class="container">
+    <h2 class="display-4 text-justify"><blockquote> Organisation development is seen as a process that applies behavioural science knowledge and practices to help organisations achieve greater effectiveness</blockquote></h2>
+    <p class="lead"><cite>Cummings & Worley, 2005</cite></p>
+  </div>
+</div>
+<br class="my-4">
+
+<div class="container-fluid my-4">
+  <div class="container-fluid d-md-flex align-content-center">
+    <h3 class="border-2">What do you do when a simple two-day training programme is not enough to build your team’s capability?</h3>
+    <h3 class="border-2">What is the solution if deep-rooted lasting changes must be embedded into the organisation?</h3>
+  </div>
+  <h2 class="text-center display-4 my-4 ">Organisation Development helps build long-term sustainable interventions which go beyond conventional training</h2>
+</div>
+<br class="my-4">
+
+<div class="container-fluid my-4">
+  <h2 class="display-4 text-center">We Cover</h2>
+  <div class="row row-cols-1 row-cols-md-2">
+    <div class="col card mb-2">
+      <h3 class="card-header text-center">People</h3>
+      <svg class="bi card-img-top text-primary" fill="currentColor">
+        <use xlink:href="\assets\icons\bootstrap-icons.svg#people"/>
+      </svg>
+    </div>
+    <div class="col card mb-2">
+      <h3 class="card-header text-center">Process</h3>
+      <svg class="bi card-img-top text-primary" fill="currentColor">
+        <use xlink:href="\assets\icons\bootstrap-icons.svg#diagram-3"/>
+      </svg>
+    </div>
+    <div class="col card mb-2">
+      <h3 class="card-header text-center">System</h3>
+      <svg class="bi card-img-top text-primary" fill="currentColor">
+        <use xlink:href="\assets\icons\bootstrap-icons.svg#card-checklist"/>
+      </svg>
+    </div>
+    <div class="col card mb-2">
+      <h3 class="card-header text-center">Tools</h3>
+      <svg class="bi card-img-top text-primary" fill="currentColor">
+        <use xlink:href="\assets\icons\bootstrap-icons.svg#tools"/>
+      </svg>
+    </div>
+  </div>
+</div>
+<br class="my-4">
+
+<div class="container-fluid my-4">
+  <h2 class="display-4 text-center">Our Work</h2>
+<div class="row">
+  <div class="col-md-8">
+    <img class="img-fluid mr-auto" src="\assets\images\OD.png" alt="Samriddhi OD Solutions">
+    <ul class="sr-only">
+      {% for solutions in site.data.organisation_development.yml %}
+      <li>{{solutions}}</li>
+      {% endfor %}
+    </ul>
+  </div>
+  <div class="col-md-4">
+    {% include resource_form.html %}
+  </div>
+</div>
+</div>
+<!--
+<section>
+  <div class="container-fluid">
+    <h2 class="display-4 text-center">
+      {% if page.category != page.title %}
+      {% assign filtered_products = site.products | where: 'featured', true %}
+      Featured
+      {% else %}
+      {% assign filtered_products = site.products | where: 'category', page.category %}
+      Related
+      {% endif %}
+      Products</h2>
+      <div class="container-fluid">
+        <div class="row row-cols-1 row-cols-md-3 row-cols-lg-4 my-4 justify-content-around">
+          {% for product in filtered_products %}
+          {% include product_cards_section.html %}
+          {% endfor %}
+        </div>
+      </div>
+    </div>
+</section>
+
+  stuff we found interesting
+  <div class="container-fluid">
+    <h2 class="display-4 text-center my-4">Related Posts</h2>
+    <div class="card-columns">
+      {% assign rel_post = site.posts | where: 'category', page.category %}
+      {% for post in rel_post %}
+      <div class="card mb-4">
+        <img src="{{post.cover}}" class="card-img-top" alt="{{post.coveralt}}">
+        <div class="card-body">
+          <h3 class="card-title">{{post.title}}</h3>
+          <p class="card-text">{{post.subtitle}}</p>
+          <a href="{{post.url}}" class="stretched-link"></a>
+        </div>
+        <div class="card-footer text-muted d-flex justify-content-around">
+          <a class="text-secondary">#Category</a>
+        </div>
+      </div>
+      {% endfor %}
+    </div>
+  </div>
+-->
