@@ -47,8 +47,6 @@
 <meta name="twitter:image" content="" />
 
 
-    <script src="\assets\js\simple-jekyll-search.js" type="text/javascript"></script>
-    
   </head>
   <body class="">
   <header class="fixed-top">
@@ -118,19 +116,19 @@
         </button>
       </div>
       <div class="modal-body">
-        <div id="search-demo-container">
+        <script src="\assets\js\simple-jekyll-search.js" type="text/javascript"></script>
+<div id="search-demo-container">
   <input class="form-control" type="text" id="search-input" placeholder="Search">
   <div class="mt-4" id="results-container"></div>
 </div>
 
       </div>
-
     </div>
   </div>
 </div>
 
     <!--home page masthead-->
-<div class="container-fluid card border-0" style="">
+<div class="container-fluid card border-0" style="height: 80vh; width: 100vw;">
   <img src="\assets\images\homepage_background-post.jpg" class="masthead" alt="A Green Leaf symbolising growth">
   <div class="card-img-overlay">
     <div class=" jumbotron w-75 mx-auto bg-white text-black text-center mt-5">
@@ -487,10 +485,10 @@
       
       <div class="card mb-4">
         <img
-          srcset="\assets\images\a_ path_lined_by_old_and_new_trees-post550.jpg 550w,
-                  \assets\images\a_ path_lined_by_old_and_new_trees-post750.jpg 750w
-                  \assets\images\a_ path_lined_by_old_and_new_trees-post.jpg 1200w"
-          src="\assets\images\a_ path_lined_by_old_and_new_trees-post.jpg"
+          srcset="\assets\images\path_lined_by_old_and_new_trees-post550.jpg 550w,
+                  \assets\images\path_lined_by_old_and_new_trees-post750.jpg 750w
+                  \assets\images\path_lined_by_old_and_new_trees-post.jpg 1200w"
+          src="\assets\images\path_lined_by_old_and_new_trees-post.jpg"
           sizes ="(max-width:650px) 550w, 750w, 1200w"
            class="card-img-top" alt="a path lined by old and new trees">
         <div class="card-body">
@@ -638,7 +636,7 @@
 
     </footer>
     <script src="https://www.google.com/recaptcha/api.js" async defer></script>
-    <script type="text/javascript">
+    <script type="text/javascript" defer>
       SimpleJekyllSearch({
         searchInput: document.getElementById('search-input'),
         resultsContainer: document.getElementById('results-container'),
