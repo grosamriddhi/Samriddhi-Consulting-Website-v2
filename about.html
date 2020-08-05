@@ -154,8 +154,8 @@
 
   </header>
 
-    <div class="modal fade" id="exampleModalLong" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
-  <div class="modal-dialog modal-dialog-centered" role="document">
+    <div class="modal fade" tabindex="-1" id="exampleModalLong" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true" role="search">
+  <div class="modal-dialog modal-dialog-centered">
     <div class="modal-content">
       <div class="modal-header">
         <h5 class="modal-title" id="exampleModalLongTitle">Search</h5>
@@ -174,6 +174,49 @@
     </div>
   </div>
 </div>
+
+    <div class="modal fade border-secondary" tabindex="-1" id="contactFormModal" data-keyboard="true" data-focus="true" aria-labelledby="contactFormModal" aria-hidden="true" role="dialog">
+  <div class="modal-dialog modal-dialog-centered" role="document">
+    <div class="modal-body">
+      <div class="modal-content">
+        <div class="modal-header text-center border-0 mb-0 pb-0">
+          <h4 class="modal-title w-100 h2">Hello! Its great to connect</h4>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body my-0 mx-0 py-0 px-0">
+          <form action="https://formspree.io/xjvrobjl" method="POST" class="card border-0">
+            <div class="form-group card-body text-center my-0">
+              <label for="exampleInputEmail1">We're really excited to discuss<p class="mark">About Us</p>Where can we reach you?</label>
+              <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="name@example.com" required>
+              <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+              </br>
+              <label for="exampleFormControlTextarea1">How can we be of assistance?</label>
+              <textarea class="form-control" id="exampleFormControlTextarea1" rows="2"></textarea>
+            </div>
+          </form>
+        </div>
+        <div class="modal-footer d-flex justify-content-center border-0 mt-0 pt-0">
+          <button type="submit" class="container-fluid btn btn-secondary">Submit</button>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!--
+<form action="https://formspree.io/xjvrobjl" method="POST" class="card border-secondary">
+<div class="form-group card-body">
+<label for="exampleInputEmail1" class="text-center">We're really excited to discuss<p class="text-center mark">About Us</p>Where can we reach you?</label>
+<input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="name@example.com" required>
+<small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+<label for="exampleFormControlTextarea1">Its great to connect. How can we be of assistance?</label>
+<textarea class="form-control" id="exampleFormControlTextarea1" rows="2"></textarea>
+</div>
+<button type="submit" class="footer d-block container-fluid mt-2 btn btn-secondary">Submit</button>
+</form>
+-->
 
     <div class="jumbotron-fluid px-4 py-2 bg-white text-dark">
   <img src="/assets/images/Samriddhi_Icon.svg" class="img-fluid rounded float-right w-25" alt="A Green Leaf symbolising growth" loading="lazy">
@@ -319,44 +362,27 @@
 
 
     <footer>
-      <div class="fixed-bottom border-top pt-2 bg-white">
-  <div class="collapse" id="contactForm">
-    <div class="container py-2">
-          <form action="https://formspree.io/xjvrobjl" method="POST" class="card border-secondary">
-  <div class="form-group card-body">
-    <label for="exampleInputEmail1">We're really excited to discuss About Us with you. Where can we reach you?</label>
-    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="name@example.com" required>
-    <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
-    <label for="exampleFormControlTextarea1">Its great to connect. How can we be of assistance?</label>
-    <textarea class="form-control" id="exampleFormControlTextarea1" rows="2"></textarea>
-  </div>
-  <button type="submit" class="footer d-block container-fluid mt-2 btn btn-secondary">Submit</button>
-</form>
-
-    </div>
-  </div>
-  <div class=" d-flex justify-content-around">
-      <a href="https://www.linkedin.com/company/samriddhi-consulting/" class="">
-        <img src="/assets/images/LI-In-Bug.png" style="height: 2rem; " class="img-fluid">
-      </a>
-      <a href="https://twitter.com/grosamriddhi" class="">
-        <img src="/assets/images/Twitter_Logo_Blue.png" style="height: 2rem; " class="img-fluid">
-      </a>
-      <a href="#" class="d-md-inline d-none">
-        <small> <em>&copy; 2019 Samriddhi Consulting</em> </small>
-      </a>
-      <a href="Tel:+91-124-3541505">
-        <svg class="bi text-primary" fill="currentColor" style="height:2rem; width:2rem; ">
-          <use xlink:href="/assets/icons/bootstrap-icons.svg#telephone"/>
-        </svg>
-      </a>
-      <a data-toggle="collapse" href="#contactForm" aria-controls="contactForm" aria-expanded="false" aria-label="Open Contact Form" role="button">
-        <svg class="bi text-primary" fill="currentColor" style="height: 2rem; width:2rem;">
-          <use xlink:href="/assets/icons/bootstrap-icons.svg#envelope"/>
-        </svg>
-      </a>
-    </div>
-  </div>
+      <div class="fixed-bottom border-top pt-2 bg-white d-flex justify-content-around">
+  <a href="https://www.linkedin.com/company/samriddhi-consulting/" class="">
+    <img src="/assets/images/LI-In-Bug.png" style="height: 2rem; " class="img-fluid">
+  </a>
+  <a href="https://twitter.com/grosamriddhi" class="">
+    <img src="/assets/images/Twitter_Logo_Blue.png" style="height: 2rem; " class="img-fluid">
+  </a>
+  <a href="#" class="d-md-inline d-none">
+    <small> <em>&copy; 2019 Samriddhi Consulting</em> </small>
+  </a>
+  <a href="Tel:+91-124-3541505">
+    <svg class="bi text-primary" fill="currentColor" style="height:2rem; width:2rem; ">
+      <use xlink:href="/assets/icons/bootstrap-icons.svg#telephone"/>
+    </svg>
+  </a>
+  <a data-toggle="modal" href="#contactFormModal">
+    <svg class="bi text-primary" fill="currentColor" style="height: 2rem; width:2rem;">
+      <use xlink:href="/assets/icons/bootstrap-icons.svg#envelope"/>
+    </svg>
+  </a>
+</div>
 
     </footer>
 
