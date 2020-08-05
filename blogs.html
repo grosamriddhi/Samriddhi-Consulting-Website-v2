@@ -44,8 +44,11 @@
     {
         "@context": "http://schema.org",
         "@type": "BlogPosting",
+        "url": "https://samriddhiconsulting.com/blogs.html",
         "headline": "Blogs",
+        "name": "Blogs",
         "description": "At Samriddhi, we love to look forward and walk into uncharted territories to bring back innovative solutions for our partner clients",
+        "articleBody": "  {% for page in site.posts %}    {% include postcard.html %}  {% endfor %}",
         "image": "https://samriddhiconsulting.com/assets/images/Samriddhi_Consulting_Logo.svg",
         "mainEntityOfPage": {
             "@type": "WebPage",
@@ -57,26 +60,27 @@
         "author": {
             "@type": "Person",
             
-            "name": ""Pranesh" "Nagarajan"",
-            "description": ""Director - GTM | UX"",
+            "name": "Pranesh Nagarajan",
+            "description": "Director - GTM | UX",
             "sameAs": "www.linkedin.com/in/praneshnagarajan/",
             "image": {
                 "@type": "ImageObject",
-                "url": "\assets\images\Pranesh_profile_pic_square.jfif"
+                "url": "https://samriddhiconsulting.com/assets/images/Pranesh_profile_pic_square.jpg"
             },
             "givenName": "Pranesh",
             "familyName": "Nagarajan",
-            "alternateName": "www.linkedin.com/in/praneshnagarajan/",
+            "twitter": "praneshnr"
         },
         "publisher": {
             "@type": "Organization",
-            "name": "Samriddhi Consulting",
+            "name": "All things Growth | Samriddhi Consulting",
             "description": "At Samriddhi, we love to look forward and walk into uncharted territories to bring back innovative solutions for our partner clients",
+            "url": "https://samriddhiconsulting.com",
             "sameAs": "http://grosamriddhi.github.io",
             "logo": {
                 "@type": "ImageObject",
-                "url": "/assets/images/Samriddhi_Consulting_Logo.svg"
-            },
+                "url": "https://samriddhiconsulting.com/assets/images/Samriddhi_Consulting_Logo.svg"
+            }
         }
     }
 </script>
