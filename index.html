@@ -39,26 +39,45 @@
   <meta property="og:image:height" content="627" />
   <meta property="og:image:width" content="1200" />
   <meta property="og:site_name" content="All things Growth | Samriddhi Consulting"/>
-  <meta property="og:description" content="" />
+  <meta property="og:description" content="At Samriddhi, we love to look forward and walk into uncharted territories to bring back innovative solutions for our partner clients" />
   <meta property="og:image:alt" content="Unlock Sustainable Growth through Enhancing People Capability - Samriddhi Consulting" />
 
     <script type="application/ld+json">
     {
         "@context": "http://schema.org",
-        "@type": "BlogPosting",
+        "@type":  "BlogPosting" ,
         "url": "https://samriddhiconsulting.com/",
+        "address": {
+                      "@type": "PostalAddress",
+                      "streetAddress": "DLF Phase 2",
+                      "addressLocality": "Gurugram",
+                      "addressRegion": "Haryana",
+                      "postalCode": "122002",
+                      "addressCountry": "India"
+                    },
         "headline": "Unlock Sustainable Growth through Enhancing People Capability - Samriddhi Consulting",
-        "name": "Unlock Sustainable Growth through Enhancing People Capability - Samriddhi Consulting",
+        "name": "All things Growth | Samriddhi Consulting",
         "description": "At Samriddhi, we love to look forward and walk into uncharted territories to bring back innovative solutions for our partner clients",
         "articleBody": "              Samriddhi Consulting        All things Growth                              समृद्धि: Noun            Prosperity | Affluence | Flourishing                                          {% include about_us.html %}{% include capabilities.html %}      {% if page.category != page.title %}    {% assign filtered_products = site.products | where: 'featured', true %}    Featured    {% else %}    {% assign filtered_products = site.products | where: 'category', page.category %}    Related    {% endif %}    Products                  {% for product in filtered_products %}        {% include product_cards_section.html %}        {% endfor %}                  {% include worked_with.html %}    {% include how_we_work.html %}          Thoughtstarters          {% for post in paginator.posts %}                                {{post.title}}          {{post.subtitle}}                                    {% for cat in post.category %}          #{{cat}}          {% endfor %}                    {% endfor %}      ",
+        "email": "connect@grosamriddhi.com",
         "image": "https://samriddhiconsulting.com/assets/images/Samriddhi_Consulting_Logo.svg",
+        "logo": {
+            "@type": "ImageObject",
+            "url": "https://samriddhiconsulting.com/assets/images/Samriddhi_Consulting_Logo.svg"
+        },
         "mainEntityOfPage": {
             "@type": "WebPage",
             "@id": "https://samriddhiconsulting.com/"
         },
-        "datePublished": "",
-        "dateModified": "",
+        "datePublished": ,
+        "dateModified":   ,
         "isAccessibleForFree": "True",
+        "geo": {
+                  "@type": "GeoCoordinates",
+                  "latitude": 28.48469,
+                  "longitude": 77.09044
+                },
+        "telephone": "+1243541505",
         "author": {
             "@type": "Person",
             
