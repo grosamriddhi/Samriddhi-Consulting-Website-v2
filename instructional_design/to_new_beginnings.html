@@ -109,19 +109,26 @@
      End Google Tag Manager -->
 
   <header class="fixed-top">
-    <nav class="navbar navbar-expand-md navbar-light bg-white justify-content-around px-2">
+    <nav class="navbar navbar-expand-md navbar-light bg-white d-flex justify-content-around mx-2">
   <div class="order-1">
     <a class="navbar-brand" href="/">
       <img src="/assets/images/Samriddhi_Consulting_Logo.svg" style="height: 3rem;" class="" alt="Samriddhi Consulting Logo">
     </a>
   </div>
-  <div class="d-flex align-items-baseline justify-content-end order-md-3 order-2 px-0 mx-0">
-    <form class="form-inline ml-4">
-      <button type="button" class="btn btn-outline-primary" data-toggle="modal" data-target="#exampleModalLong" style="height: 3rem;">
-        Search
-      </button>
+  <div class="d-flex align-items-baseline justify-content-end order-md-3 order-2">
+    <a href="Tel:+91-124-3541505" class="mx-2">
+      <svg class="bi text-muted mx-2" fill="currentColor" style="height:2rem; width:2rem; ">
+        <use xlink:href="/assets/icons/bootstrap-icons.svg#telephone" />
+      </svg>
+    </a>
+    <form class="form-inline">
+      <a type="button" class="mx-2" data-toggle="modal" data-target="#exampleModalLong">
+        <svg class="bi text-muted mx-2" fill="currentColor" style="height:2rem; width:2rem; ">
+          <use xlink:href="/assets/icons/bootstrap-icons.svg#search" />
+        </svg>
+      </a>
     </form>
-    <button class="navbar-toggler ml-2" type="button" data-toggle="collapse" data-target="#mainHeaderToggler" aria-controls="mainHeaderToggler" aria-expanded="false" aria-label="Toggle navigation" style="height: 3rem;">
+    <button class="navbar-toggler mx-2" type="button" data-toggle="collapse" data-target="#mainHeaderToggler" aria-controls="mainHeaderToggler" aria-expanded="false" aria-label="Toggle navigation" style="height: 3rem;">
       <span class="navbar-toggler-icon"></span>
     </button>
   </div>
@@ -271,7 +278,7 @@ Industrial Revolution 4.0 has indeed come knocking at our doors in style! I canâ
 </script>
 
 
-<section class="container-fluid card border-0 px-4">
+<section class="container-fluid card border-0 px-md-4">
   <div class="card-body text-center mx-auto" style="min-height: 70vh;">
     <h1 class="display-4 card-title">To New Beginnings</h1>
     <br class="my-4">
@@ -365,8 +372,8 @@ Industrial Revolution 4.0 has indeed come knocking at our doors in style! I canâ
 
   <br class="my-4">
   <main class="container-fluid">
-    <h1 class="d-none">To New Beginnings</h1>
-    <article class="w-75 text-black pt-2 mx-auto">
+    <h2 class="d-none">To New Beginnings</h2>
+    <article class="mx-md-4 px-md-4 text-black pt-2 mx-auto">
       <p class="lead text-justify">
         
 <p>Having entered a new decade, I canâ€™t help but look back at the decade gone by and wonder if thereâ€™s ever been such a game-changing ten-year run for HR professionals â€“ what with HR automation, people analytics, gig economy, millennials and learning-on-the-go challenging every paradigm of people management for the better. HR is moving from processing paper to making individuals feel valued in the organisation and supporting their talent journeys.</p>
@@ -412,6 +419,30 @@ Industrial Revolution 4.0 has indeed come knocking at our doors in style! I canâ
 <aside class="container-fluid">
   <h2 class="h3 text-center py-2">You may also be interested in</h2>
   <div class="card-columns justify-content-around">
+    
+    
+  <div class="card">
+    <img
+      srcset="/assets/images/iwd_event-post550.jpg 550w,
+              /assets/images/iwd_event-post750.jpg 750w
+              /assets/images/iwd_event-post.jpg 1200w"
+      src="/assets/images/iwd_event-post.jpg"
+      sizes ="(max-width:650px) 550w, 750w, 1200w"
+      class="card-img-top" alt="Cover image of the Certified Diversity Facilitator Event presentation">
+      <div class="card-body">
+        <h5 class="card-title"><a class="stretched-link" href="/instructional_design/celebrating_work_and_diversity">Celebrating work and diversity</a></h5>
+        <h6 class="card-subtitle mb-2 text-muted">Many miles to go; enjoying every success</h6>
+      </div>
+<!--
+    <div class="card-footer text-muted">
+      
+      update the link in the below section
+      <a class="btn btn-primary" href="#" role="button">Instructional_Design</a>
+      
+    </div>-->
+  </div>
+
+    <br>
     
     
   <div class="card">
@@ -629,30 +660,6 @@ Industrial Revolution 4.0 has indeed come knocking at our doors in style! I canâ
 
     <br>
     
-    
-  <div class="card">
-    <img
-      srcset="/assets/images/diversity_workplaces-post550.jpg 550w,
-              /assets/images/diversity_workplaces-post750.jpg 750w
-              /assets/images/diversity_workplaces-post.jpg 1200w"
-      src="/assets/images/diversity_workplaces-post.jpg"
-      sizes ="(max-width:650px) 550w, 750w, 1200w"
-      class="card-img-top" alt="photo frames of different shapes and colours">
-      <div class="card-body">
-        <h5 class="card-title"><a class="stretched-link" href="/organisation_development/workplace_warfare">The Workforce Mash-up!</a></h5>
-        <h6 class="card-subtitle mb-2 text-muted">The unprecedented is happening. Workplaces today are seeing five generations together under one roof for the first time</h6>
-      </div>
-<!--
-    <div class="card-footer text-muted">
-      
-      update the link in the below section
-      <a class="btn btn-primary" href="#" role="button">Organisation_Development</a>
-      
-    </div>-->
-  </div>
-
-    <br>
-    
   </div>
 </aside>
 
@@ -664,41 +671,6 @@ Industrial Revolution 4.0 has indeed come knocking at our doors in style! I canâ
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous" defer></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous" defer></script>
 
-
-    <footer>
-      <div class="fixed-bottom border-top py-4 bg-white d-flex justify-content-around align-content-center">
-  <!-- 
-  <a href="https://www.linkedin.com/company/samriddhi-consulting/" class="">
-    <img src="/assets/images/LI-In-Bug.png" style="height: 3rem; " class="img-fluid">
-  </a>
-  <a href="https://twitter.com/grosamriddhi" class="">
-    <img src="/assets/images/Twitter_Logo_Blue.png" style="height: 3rem; " class="img-fluid">
-  </a>
-  -->
-
-  <script src="https://platform.linkedin.com/in.js" type="text/javascript"> lang: en_US</script>
-<script type="IN/FollowCompany" data-id="18665154"></script>
-
-
-  <a href="#" class="d-md-inline d-none">
-    <em>&copy; 2019 Samriddhi Consulting</em>
-  </a>
-
-  <a href="Tel:+91-124-3541505">
-    <svg class="bi text-primary" fill="currentColor" style="height:3rem; width:3rem; ">
-      <use xlink:href="/assets/icons/bootstrap-icons.svg#telephone"/>
-    </svg>
-  </a>
-  <!-- 
-  <a data-toggle="modal" href="#contactFormModal">
-    <svg class="bi text-primary" fill="currentColor" style="height: 3rem; width:3rem;">
-      <use xlink:href="/assets/icons/bootstrap-icons.svg#envelope"/>
-    </svg>
-  </a>
-  -->
-</div>
-
-    </footer>
 
     <script type="text/javascript" defer>
       SimpleJekyllSearch({
