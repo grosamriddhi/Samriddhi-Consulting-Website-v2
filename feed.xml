@@ -5,9 +5,301 @@
     <description>At Samriddhi, we love to look forward and walk into uncharted territories to bring back innovative solutions for our partner clients</description>
     <link>https://samriddhiconsulting.com/</link>
     <atom:link href="https://samriddhiconsulting.com/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Wed, 17 Feb 2021 18:44:01 +0530</pubDate>
-    <lastBuildDate>Wed, 17 Feb 2021 18:44:01 +0530</lastBuildDate>
+    <pubDate>Fri, 05 Mar 2021 16:46:58 +0530</pubDate>
+    <lastBuildDate>Fri, 05 Mar 2021 16:46:58 +0530</lastBuildDate>
     <generator>Jekyll v4.2.0</generator>
+    
+      <item>
+        <title>Cognitive Biases Primer</title>
+        <description>&lt;p&gt;With their origins in the hunter-gatherer evolution of humans, cognitive biases are deeply rooted into our neuroscience​. These are mental shortcuts (known as heuristics), that help us make sense of the vast information around us​. Without them, we will be crippled when it comes to fast decision making and survival.​&lt;/p&gt;
+
+&lt;h3 id=&quot;so-theres-nothing-wrong-with-having-unconscious-bias-right-&quot;&gt;So there’s nothing wrong with having unconscious bias, right? ​&lt;/h3&gt;
+
+&lt;p&gt;Not entirely!&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;​Unconscious bias is great for survival and ‘fast’ decision making, as Daniel Kahneman would put it - System 1 Thinking (Thinking, Fast and Slow – 2013)​.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;However, ‘slow’ and deliberate thinking (System 2 Thinking) requires us to remove these filters​&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Good news is – it’s possible to work-around these biases once you are aware how to spot them. Let’s look at the top 10 biases that can cloud your decision making at a workplace and how to work around them.​&lt;/p&gt;
+
+&lt;h2 id=&quot;10-types-of-cognitive-bias&quot;&gt;10 Types of Cognitive Bias:&lt;/h2&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;Likeability Bias&lt;/li&gt;
+  &lt;li&gt;Affinity Bias&lt;/li&gt;
+  &lt;li&gt;Attribution Bias&lt;/li&gt;
+  &lt;li&gt;Confirmation Bias&lt;/li&gt;
+  &lt;li&gt;Halo (or Horns) Effect&lt;/li&gt;
+  &lt;li&gt;Proximity Bias&lt;/li&gt;
+  &lt;li&gt;Bandwagon Bias&lt;/li&gt;
+  &lt;li&gt;Loss Aversion&lt;/li&gt;
+  &lt;li&gt;Anchoring Bias&lt;/li&gt;
+  &lt;li&gt;Availability Heuristic&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;div class=&quot;row row-cols-1 row-cols-md-2&quot;&gt;
+    &lt;div class=&quot;col mb-2&quot;&gt;
+        &lt;div class=&quot;card text-center&quot;&gt;
+            &lt;img src=&quot;/assets/images/likeability_bias-post.jpg&quot; class=&quot;card-img-top&quot; alt=&quot;A person holding a white lapel pin with a red heart drawn on it &quot; loading=&quot;lazy&quot; /&gt;
+            &lt;small class=&quot;m-0 p-0 pb-2&quot;&gt;Photo by &lt;a href=&quot;https://unsplash.com/@kellysikkema?utm_source=unsplash&amp;amp;utm_medium=referral&amp;amp;utm_content=creditCopyText&quot;&gt;Kelly Sikkema&lt;/a&gt; on &lt;a href=&quot;https://unsplash.com/@pranesh_n/likes?utm_source=unsplash&amp;amp;utm_medium=referral&amp;amp;utm_content=creditCopyText&quot;&gt;Unsplash&lt;/a&gt;&lt;/small&gt;
+            &lt;div class=&quot;card-body&quot;&gt;
+                &lt;h4 class=&quot;card-title&quot;&gt;Likeability Bias&lt;/h4&gt;
+                &lt;p class=&quot;card-text&quot;&gt;Rooted in how we expect people of certain groups to behave, this bias leads us to liking people who behave as per these expectations. For example, men are liked when they are assertive, women when they are gentle and so on.&lt;/p&gt;
+                &lt;ul class=&quot;list-group list-group-flush&quot;&gt;
+                    &lt;h5 class=&quot;card-subtitle list-group-item border-top border-bottom-0 text-muted&quot;&gt;Manifestations at work&lt;/h5&gt;
+                    &lt;ul class=&quot;list-group list-group-flush&quot;&gt;
+                        &lt;li class=&quot;list-group-item border-0&quot;&gt;A woman may assert her ideas and face ‘likeability penalty’, getting her ideas shot down. &lt;/li&gt;
+                        &lt;li class=&quot;list-group-item border-0&quot;&gt;A young intern is not liked for questioning established processes and suggesting new ones&lt;/li&gt;
+                    &lt;/ul&gt;
+                    &lt;h5 class=&quot;card-subtitle list-group-item text-muted border-top border-bottom-0&quot;&gt;Work Around&lt;/h5&gt;
+                    &lt;ul class=&quot;list-group list-group-flush&quot;&gt;
+                        &lt;li class=&quot;list-group-item border-0&quot;&gt;Separate the person from the idea&lt;/li&gt;
+                        &lt;li class=&quot;list-group-item border-0&quot;&gt;Institute standard, competency-based processes for evaluation of ideas and performance, regardless of who is assessing or being assessed&lt;/li&gt;
+                    &lt;/ul&gt;
+                &lt;/ul&gt;    
+            &lt;/div&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+    &lt;div class=&quot;col mb-2&quot;&gt;
+        &lt;div class=&quot;card text-center&quot;&gt;
+            &lt;img src=&quot;/assets/images/affinity_bias-post.jpg&quot; class=&quot;card-img-top&quot; alt=&quot;Peas in a Pod&quot; loading=&quot;lazy&quot; /&gt;
+            &lt;small class=&quot;m-0 p-0 pb-2&quot;&gt;Photo by &lt;a href=&quot;https://unsplash.com/@rachaelgorjestani?utm_source=unsplash&amp;amp;utm_medium=referral&amp;amp;utm_content=creditCopyText&quot;&gt;Rachael Gorjestani&lt;/a&gt; on &lt;a href=&quot;https://unsplash.com/@pranesh_n/likes?utm_source=unsplash&amp;amp;utm_medium=referral&amp;amp;utm_content=creditCopyText&quot;&gt;Unsplash&lt;/a&gt;&lt;/small&gt;
+            &lt;div class=&quot;card-body&quot;&gt;
+                &lt;h4 class=&quot;card-title&quot;&gt;Affinity Bias&lt;/h4&gt;
+                &lt;p class=&quot;card-text&quot;&gt;Our tendency to gravitate towards people like ourselves in appearance, beliefs, and background. Flip side, we may avoid or even dislike people different from us.&lt;/p&gt;
+                &lt;ul class=&quot;list-group list-group-flush&quot;&gt;
+                    &lt;h5 class=&quot;card-subtitle list-group-item border-top border-bottom-0 text-muted&quot;&gt;Manifestations at work&lt;/h5&gt;
+                    &lt;ul class=&quot;list-group list-group-flush&quot;&gt;
+                        &lt;li class=&quot;list-group-item border-0&quot;&gt;The classic ‘culture fit’ hiring – we are unconsciously falling for someone who reminds us of ourselves&lt;/li&gt;
+                    &lt;/ul&gt;
+                    &lt;h5 class=&quot;card-subtitle list-group-item text-muted border-top border-bottom-0&quot;&gt;Work Around&lt;/h5&gt;
+                    &lt;ul class=&quot;list-group list-group-flush&quot;&gt;
+                        &lt;li class=&quot;list-group-item border-0&quot;&gt;Actively take note of the similarities you share with another person so that you can differentiate between attributes that may cloud your judgement&lt;/li&gt;
+                        &lt;li class=&quot;list-group-item border-0&quot;&gt;Start talking about ‘culture adds’ rather than ‘culture fits’&lt;/li&gt;
+                    &lt;/ul&gt;
+                &lt;/ul&gt;    
+            &lt;/div&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+    &lt;div class=&quot;col mb-2&quot;&gt;
+        &lt;div class=&quot;card text-center&quot;&gt;
+            &lt;img src=&quot;/assets/images/attribution_bias-post.jpg&quot; class=&quot;card-img-top&quot; alt=&quot;Silhouette of a man&quot; loading=&quot;lazy&quot; /&gt;
+            &lt;small class=&quot;m-0 p-0 pb-2&quot;&gt;Photo by &lt;a href=&quot;https://unsplash.com/@benjaminsweet?utm_source=unsplash&amp;amp;utm_medium=referral&amp;amp;utm_content=creditCopyText&quot;&gt;Ben Sweet&lt;/a&gt; on &lt;a href=&quot;https://unsplash.com/@pranesh_n/likes?utm_source=unsplash&amp;amp;utm_medium=referral&amp;amp;utm_content=creditCopyText&quot;&gt;Unsplash&lt;/a&gt;&lt;/small&gt;
+            &lt;div class=&quot;card-body&quot;&gt;
+                &lt;h4 class=&quot;card-title&quot;&gt;Attribution Bias&lt;/h4&gt;
+                &lt;p class=&quot;card-text&quot;&gt;Attribution bias is a phenomenon where you try to make sense of or judge a person’s behavior based on prior observations and interactions you’ve had with that group represented by the individual.&lt;/p&gt;
+                &lt;ul class=&quot;list-group list-group-flush&quot;&gt;
+                    &lt;h5 class=&quot;card-subtitle list-group-item border-top border-bottom-0 text-muted&quot;&gt;Manifestations at work&lt;/h5&gt;
+                    &lt;ul class=&quot;list-group list-group-flush&quot;&gt;
+                        &lt;li class=&quot;list-group-item border-0&quot;&gt;Women are considered less competent at certain domains like STEM&lt;/li&gt;
+                        &lt;li class=&quot;list-group-item border-0&quot;&gt;People from vernacular backgrounds are assumed to have challenges with English speaking skills&lt;/li&gt;
+                    &lt;/ul&gt;
+                    &lt;h5 class=&quot;card-subtitle list-group-item text-muted border-top border-bottom-0&quot;&gt;Work Around&lt;/h5&gt;
+                    &lt;ul class=&quot;list-group list-group-flush&quot;&gt;
+                        &lt;li class=&quot;list-group-item border-0&quot;&gt;Don’t assume. Ask.&lt;/li&gt;
+                        &lt;li class=&quot;list-group-item border-0&quot;&gt;Hear the full story of the person and treat them as unique&lt;/li&gt;
+                    &lt;/ul&gt;
+                &lt;/ul&gt;    
+            &lt;/div&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+    &lt;div class=&quot;col mb-2&quot;&gt;
+        &lt;div class=&quot;card text-center&quot;&gt;
+            &lt;img src=&quot;/assets/images/confirmation_bias-post.jpg&quot; class=&quot;card-img-top&quot; alt=&quot;A black cat&quot; loading=&quot;lazy&quot; /&gt;
+            &lt;small class=&quot;m-0 p-0 pb-2&quot;&gt;Photo by &lt;a href=&quot;https://unsplash.com/@t_ahmetler?utm_source=unsplash&amp;amp;utm_medium=referral&amp;amp;utm_content=creditCopyText&quot;&gt;Tolga Ahmetler&lt;/a&gt; on &lt;a href=&quot;https://unsplash.com/@pranesh_n/likes?utm_source=unsplash&amp;amp;utm_medium=referral&amp;amp;utm_content=creditCopyText&quot;&gt;Unsplash&lt;/a&gt;&lt;/small&gt;
+            &lt;div class=&quot;card-body&quot;&gt;
+                &lt;h4 class=&quot;card-title&quot;&gt;Confirmation Bias&lt;/h4&gt;
+                &lt;p class=&quot;card-text&quot;&gt;Our tendency to favour information that confirms our pre-existing beliefs. This occurs when we have decided a course of action and look for evidence to prove it correct!&lt;/p&gt;
+                &lt;ul class=&quot;list-group list-group-flush&quot;&gt;
+                    &lt;h5 class=&quot;card-subtitle list-group-item border-top border-bottom-0 text-muted&quot;&gt;Manifestations at work&lt;/h5&gt;
+                    &lt;ul class=&quot;list-group list-group-flush&quot;&gt;
+                        &lt;li class=&quot;list-group-item border-0&quot;&gt;Based on the resume, the hiring decision is made up and the interview is used to prove that decision right.&lt;/li&gt;
+                        &lt;li class=&quot;list-group-item border-0&quot;&gt;A new worker is judged a certain way and all interactions with the team make the judgment come true.&lt;/li&gt;
+                    &lt;/ul&gt;
+                    &lt;h5 class=&quot;card-subtitle list-group-item text-muted border-top border-bottom-0&quot;&gt;Work Around&lt;/h5&gt;
+                    &lt;ul class=&quot;list-group list-group-flush&quot;&gt;
+                        &lt;li class=&quot;list-group-item border-0&quot;&gt;Competency based hiring or using structured/ standardised interviews.&lt;/li&gt;
+                        &lt;li class=&quot;list-group-item border-0&quot;&gt;Introduce a robust onboarding processes.&lt;/li&gt;
+                    &lt;/ul&gt;
+                &lt;/ul&gt;    
+            &lt;/div&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+    &lt;div class=&quot;col mb-2&quot;&gt;
+        &lt;div class=&quot;card text-center&quot;&gt;
+            &lt;img src=&quot;/assets/images/halo_horns_effect-post.jpg&quot; class=&quot;card-img-top&quot; alt=&quot;Person with halo behind&quot; loading=&quot;lazy&quot; /&gt;
+            &lt;small class=&quot;m-0 p-0 pb-2&quot;&gt;Photo by &lt;a href=&quot;https://unsplash.com/@asmith360?utm_source=unsplash&amp;amp;utm_medium=referral&amp;amp;utm_content=creditCopyText&quot;&gt;Adrian Smith&lt;/a&gt; on &lt;a href=&quot;https://unsplash.com/@pranesh_n/likes?utm_source=unsplash&amp;amp;utm_medium=referral&amp;amp;utm_content=creditCopyText&quot;&gt;Unsplash&lt;/a&gt;&lt;/small&gt;
+            &lt;div class=&quot;card-body&quot;&gt;
+                &lt;h4 class=&quot;card-title&quot;&gt;Halo (or Horns) Effect&lt;/h4&gt;
+                &lt;p class=&quot;card-text&quot;&gt;The tendency to judge others similarly on all traits. The assumption that because someone is good or bad at one thing, they will be equally good or bad at another.&lt;/p&gt;
+                &lt;ul class=&quot;list-group list-group-flush&quot;&gt;
+                    &lt;h5 class=&quot;card-subtitle list-group-item border-top border-bottom-0 text-muted&quot;&gt;Manifestations at work&lt;/h5&gt;
+                    &lt;ul class=&quot;list-group list-group-flush&quot;&gt;
+                        &lt;li class=&quot;list-group-item border-0&quot;&gt;Candidates from a certain education background are treated highly or poorly.&lt;/li&gt;
+                        &lt;li class=&quot;list-group-item border-0&quot;&gt;A person who is often late to work is overlooked for promotions despite overachieving targets.&lt;/li&gt;
+                    &lt;/ul&gt;
+                    &lt;h5 class=&quot;card-subtitle list-group-item text-muted border-top border-bottom-0&quot;&gt;Work Around&lt;/h5&gt;
+                    &lt;ul class=&quot;list-group list-group-flush&quot;&gt;
+                        &lt;li class=&quot;list-group-item border-0&quot;&gt;Introduce multiple rounds of interviewing in the hiring process, when different people view the candidates.&lt;/li&gt;
+                        &lt;li class=&quot;list-group-item border-0&quot;&gt;Set clear expectations.&lt;/li&gt;
+                        &lt;li class=&quot;list-group-item border-0&quot;&gt;Hear the person.&lt;/li&gt;
+                    &lt;/ul&gt;
+                &lt;/ul&gt;    
+            &lt;/div&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+    &lt;div class=&quot;col mb-2&quot;&gt;
+        &lt;div class=&quot;card text-center&quot;&gt;
+            &lt;img src=&quot;/assets/images/proximity_bias-post.jpg&quot; class=&quot;card-img-top&quot; alt=&quot;Water drops on blooms&quot; loading=&quot;lazy&quot; /&gt;
+            &lt;small class=&quot;m-0 p-0 pb-2&quot;&gt;Photo by &lt;a href=&quot;https://unsplash.com/@tolga__?utm_source=unsplash&amp;amp;utm_medium=referral&amp;amp;utm_content=creditCopyText&quot;&gt;Tolga Ulkan&lt;/a&gt; on &lt;a href=&quot;https://unsplash.com/@pranesh_n/likes?utm_source=unsplash&amp;amp;utm_medium=referral&amp;amp;utm_content=creditCopyText&quot;&gt;Unsplash&lt;/a&gt;&lt;/small&gt;
+            &lt;div class=&quot;card-body&quot;&gt;
+                &lt;h4 class=&quot;card-title&quot;&gt;Proximity Bias&lt;/h4&gt;
+                &lt;p class=&quot;card-text&quot;&gt;People who work in close proximity have a larger impact on our thinking and decision making than those away.&lt;/p&gt;
+                &lt;ul class=&quot;list-group list-group-flush&quot;&gt;
+                    &lt;h5 class=&quot;card-subtitle list-group-item border-top border-bottom-0 text-muted&quot;&gt;Manifestations at work&lt;/h5&gt;
+                    &lt;ul class=&quot;list-group list-group-flush&quot;&gt;
+                        &lt;li class=&quot;list-group-item border-0&quot;&gt;Candidates interviewed in person are viewed more favorably than those interviewed via distance technology.&lt;/li&gt;
+                        &lt;li class=&quot;list-group-item border-0&quot;&gt;Remote team members receive a less favourable performance feedback.&lt;/li&gt;
+                    &lt;/ul&gt;
+                    &lt;h5 class=&quot;card-subtitle list-group-item text-muted border-top border-bottom-0&quot;&gt;Work Around&lt;/h5&gt;
+                    &lt;ul class=&quot;list-group list-group-flush&quot;&gt;
+                        &lt;li class=&quot;list-group-item border-0&quot;&gt;Level the playing field. Use the same method of communication when conducting team meetings.&lt;/li&gt;
+                        &lt;li class=&quot;list-group-item border-0&quot;&gt;Use standardised/ competency-based processes.&lt;/li&gt;
+                    &lt;/ul&gt;
+                &lt;/ul&gt;    
+            &lt;/div&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+    &lt;div class=&quot;col mb-2&quot;&gt;
+        &lt;div class=&quot;card text-center&quot;&gt;
+            &lt;img src=&quot;/assets/images/bandwagon_bias-post.jpg&quot; class=&quot;card-img-top&quot; alt=&quot;Hands of people at a concert raised above their head&quot; loading=&quot;lazy&quot; /&gt;
+            &lt;small class=&quot;m-0 p-0 pb-2&quot;&gt;Photo by &lt;a href=&quot;https://unsplash.com/@theunsteady5?utm_source=unsplash&amp;amp;utm_medium=referral&amp;amp;utm_content=creditCopyText&quot;&gt;Edwin Andrade&lt;/a&gt; on &lt;a href=&quot;https://unsplash.com/@pranesh_n/likes?utm_source=unsplash&amp;amp;utm_medium=referral&amp;amp;utm_content=creditCopyText&quot;&gt;Unsplash&lt;/a&gt;&lt;/small&gt;
+            &lt;div class=&quot;card-body&quot;&gt;
+                &lt;h4 class=&quot;card-title&quot;&gt;Bandwagon Bias&lt;/h4&gt;
+                &lt;p class=&quot;card-text&quot;&gt;A common bias favouring ideas adopted by others. It could take the shape of Conformity bias – acting similar to people around, regardless of own beliefs – or Authority bias – when linked to an influential person’s beliefs.&lt;/p&gt;
+                &lt;ul class=&quot;list-group list-group-flush&quot;&gt;
+                    &lt;h5 class=&quot;card-subtitle list-group-item border-top border-bottom-0 text-muted&quot;&gt;Manifestations at work&lt;/h5&gt;
+                    &lt;ul class=&quot;list-group list-group-flush&quot;&gt;
+                        &lt;li class=&quot;list-group-item border-0&quot;&gt;Ideas suggested by the team leader or majority are voted up.&lt;/li&gt;
+                    &lt;/ul&gt;
+                    &lt;h5 class=&quot;card-subtitle list-group-item text-muted border-top border-bottom-0&quot;&gt;Work Around&lt;/h5&gt;
+                    &lt;ul class=&quot;list-group list-group-flush&quot;&gt;
+                        &lt;li class=&quot;list-group-item border-0&quot;&gt;Gain everyone’s personal perspective separately first (either through a silent, written brainstorm or through one-on-one conversations) before opening it to the team for review and discussion.&lt;/li&gt;
+                    &lt;/ul&gt;
+                &lt;/ul&gt;    
+            &lt;/div&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+    &lt;div class=&quot;col mb-2&quot;&gt;
+        &lt;div class=&quot;card text-center&quot;&gt;
+            &lt;img src=&quot;/assets/images/loss_aversion-post.jpg&quot; class=&quot;card-img-top&quot; alt=&quot;Photo of a black pug on a mattress&quot; loading=&quot;lazy&quot; /&gt;
+            &lt;small class=&quot;m-0 p-0 pb-2&quot;&gt;Photo by &lt;a href=&quot;https://unsplash.com/@charlesdeluvio?utm_source=unsplash&amp;amp;utm_medium=referral&amp;amp;utm_content=creditCopyText&quot;&gt;Charles Deluvio&lt;/a&gt; on &lt;a href=&quot;https://unsplash.com/@pranesh_n/likes?utm_source=unsplash&amp;amp;utm_medium=referral&amp;amp;utm_content=creditCopyText&quot;&gt;Unsplash&lt;/a&gt;&lt;/small&gt;
+            &lt;div class=&quot;card-body&quot;&gt;
+                &lt;h4 class=&quot;card-title&quot;&gt;Loss Aversion&lt;/h4&gt;
+                &lt;p class=&quot;card-text&quot;&gt;Preferring the choice that has been decided upon rather than looking for more and better options. Choosing low-risk certainty over high-risk potential.&lt;/p&gt;
+                &lt;ul class=&quot;list-group list-group-flush&quot;&gt;
+                    &lt;h5 class=&quot;card-subtitle list-group-item border-top border-bottom-0 text-muted&quot;&gt;Manifestations at work&lt;/h5&gt;
+                    &lt;ul class=&quot;list-group list-group-flush&quot;&gt;
+                        &lt;li class=&quot;list-group-item border-0&quot;&gt;“This is how it’s been done”&lt;/li&gt;
+                        &lt;li class=&quot;list-group-item border-0&quot;&gt;“This solution worked the last time”&lt;/li&gt;
+                    &lt;/ul&gt;
+                    &lt;h5 class=&quot;card-subtitle list-group-item text-muted border-top border-bottom-0&quot;&gt;Work Around&lt;/h5&gt;
+                    &lt;ul class=&quot;list-group list-group-flush&quot;&gt;
+                        &lt;li class=&quot;list-group-item border-0&quot;&gt;“Thou shalt not fall in love with thy solutions”&lt;/li&gt;
+                        &lt;li class=&quot;list-group-item border-0&quot;&gt;Put away the tried and tested or low-risk solutions and brainstorm new ones. If you still revert to the tried and tested ones, you still got a few more ideas for next time!&lt;/li&gt;
+                    &lt;/ul&gt;
+                &lt;/ul&gt;    
+            &lt;/div&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+    &lt;div class=&quot;col mb-2&quot;&gt;
+        &lt;div class=&quot;card text-center&quot;&gt;
+            &lt;img src=&quot;/assets/images/anchoring_bias-post.jpg&quot; class=&quot;card-img-top&quot; alt=&quot;Photo of a pug pulling on the handles of a bag&quot; loading=&quot;lazy&quot; /&gt;
+            &lt;small class=&quot;m-0 p-0 pb-2&quot;&gt;Photo by &lt;a href=&quot;https://unsplash.com/@darisja?utm_source=unsplash&amp;amp;utm_medium=referral&amp;amp;utm_content=creditCopyText&quot;&gt;Darinka Kievskaya&lt;/a&gt; on &lt;a href=&quot;https://unsplash.com/@pranesh_n/likes?utm_source=unsplash&amp;amp;utm_medium=referral&amp;amp;utm_content=creditCopyText&quot;&gt;Unsplash&lt;/a&gt;&lt;/small&gt;
+            &lt;div class=&quot;card-body&quot;&gt;
+                &lt;h4 class=&quot;card-title&quot;&gt;Anchoring Bias&lt;/h4&gt;
+                &lt;p class=&quot;card-text&quot;&gt;Being influenced by the first piece of information obtained and using it as the baseline for comparison.&lt;/p&gt;
+                &lt;ul class=&quot;list-group list-group-flush&quot;&gt;
+                    &lt;h5 class=&quot;card-subtitle list-group-item border-top border-bottom-0 text-muted&quot;&gt;Manifestations at work&lt;/h5&gt;
+                    &lt;ul class=&quot;list-group list-group-flush&quot;&gt;
+                        &lt;li class=&quot;list-group-item border-0&quot;&gt;Expecting a new management trainee to behave the same way as you did when you joined your first job! &lt;/li&gt;
+                        &lt;li class=&quot;list-group-item border-0&quot;&gt;Rejecting all CVs because you have ‘anchored’ your expectations with the incumbent of the role&lt;/li&gt;
+                    &lt;/ul&gt;
+                    &lt;h5 class=&quot;card-subtitle list-group-item text-muted border-top border-bottom-0&quot;&gt;Work Around&lt;/h5&gt;
+                    &lt;ul class=&quot;list-group list-group-flush&quot;&gt;
+                        &lt;li class=&quot;list-group-item border-0&quot;&gt;Slow down and ask for more time, where possible. &lt;/li&gt;
+                        &lt;li class=&quot;list-group-item border-0&quot;&gt;Jot down what’s similar and what’s different in your experience and your ‘anchor’. Be conscious of these when taking decisions.&lt;/li&gt;
+                    &lt;/ul&gt;
+                &lt;/ul&gt;    
+            &lt;/div&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+    &lt;div class=&quot;col mb-2&quot;&gt;
+        &lt;div class=&quot;card text-center&quot;&gt;
+            &lt;img src=&quot;/assets/images/availability_heuristic-post.jpg&quot; class=&quot;card-img-top&quot; alt=&quot;Monkey climbing a tree&quot; loading=&quot;lazy&quot; /&gt;
+            &lt;small class=&quot;m-0 p-0 pb-2&quot;&gt;Photo by &lt;a href=&quot;https://unsplash.com/@zachspears?utm_source=unsplash&amp;amp;utm_medium=referral&amp;amp;utm_content=creditCopyText&quot;&gt;Zachary Spears&lt;/a&gt; on &lt;a href=&quot;https://unsplash.com/@pranesh_n/likes?utm_source=unsplash&amp;amp;utm_medium=referral&amp;amp;utm_content=creditCopyText&quot;&gt;Unsplash&lt;/a&gt;&lt;/small&gt;
+            &lt;div class=&quot;card-body&quot;&gt;
+                &lt;h4 class=&quot;card-title&quot;&gt;Availability Heuristic&lt;/h4&gt;
+                &lt;p class=&quot;card-text&quot;&gt;Taking decisions based on the first information that comes to mind because we believe that it must be significant, hence we remembered it.&lt;/p&gt;
+                &lt;ul class=&quot;list-group list-group-flush&quot;&gt;
+                    &lt;h5 class=&quot;card-subtitle list-group-item border-top border-bottom-0 text-muted&quot;&gt;Manifestations at work&lt;/h5&gt;
+                    &lt;ul class=&quot;list-group list-group-flush&quot;&gt;
+                        &lt;li class=&quot;list-group-item border-0&quot;&gt;“Remember the person from Chennai who couldn’t adjust to Delhi weather. Let’s look at regional candidates only please.”&lt;/li&gt;
+                        &lt;li class=&quot;list-group-item border-0&quot;&gt;Selectively bringing information into a performance feedback session.&lt;/li&gt;
+                    &lt;/ul&gt;
+                    &lt;h5 class=&quot;card-subtitle list-group-item text-muted border-top border-bottom-0&quot;&gt;Work Around&lt;/h5&gt;
+                    &lt;ul class=&quot;list-group list-group-flush&quot;&gt;
+                        &lt;li class=&quot;list-group-item border-0&quot;&gt;Blind the resumes. Mask information that may cause biases to creep in at a screening stage.&lt;/li&gt;
+                        &lt;li class=&quot;list-group-item border-0&quot;&gt;Institute an ongoing process of feedback or at least document evidence (like a performance journal).&lt;/li&gt;
+                    &lt;/ul&gt;
+                &lt;/ul&gt;    
+            &lt;/div&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;form action=&quot;https://formspree.io/f/xjvpqqbe&quot; method=&quot;POST&quot; class=&quot;card&quot;&gt;
+  
+  &lt;p class=&quot;card-header&quot;&gt;
+    If you liked our article, we also have a visual deck to share with your colleagues, peers and other contacts to help them recognise their own biases and those others around them may be exhibiting. Drop your details here and we’ll email it to you!
+  &lt;/p&gt;
+  &lt;img src=&quot;/assets/images/performance_management_deck_form_image.jpg&quot; class=&quot;card-img-top&quot; alt=&quot;An image of a succulent plant&quot; loading=&quot;lazy&quot; /&gt;
+  &lt;div class=&quot;card-body&quot;&gt;
+    &lt;div class=&quot;form-group&quot;&gt;
+        &lt;label for=&quot;inputEmail&quot;&gt;Email address&lt;/label&gt;
+        &lt;input type=&quot;email&quot; name=&quot;email&quot; class=&quot;form-control&quot; id=&quot;inputEmail&quot; aria-describedby=&quot;emailHelp&quot; required=&quot;&quot; /&gt;
+        &lt;small id=&quot;emailHelp&quot; class=&quot;form-text text-muted&quot;&gt;We'll never share your email with anyone else.&lt;/small&gt;
+    &lt;/div&gt;
+    &lt;div class=&quot;form-group&quot;&gt;
+        &lt;label for=&quot;fullName&quot;&gt;Full Name&lt;/label&gt;
+        &lt;input type=&quot;text&quot; class=&quot;form-control&quot; id=&quot;fullName&quot; name=&quot;fullName&quot; required=&quot;&quot; /&gt;
+    &lt;/div&gt;
+    &lt;div class=&quot;form-group form-check&quot;&gt;
+        &lt;label class=&quot;small&quot;&gt;Samriddhi Consulting is committed to protecting and respecting your privacy, and we’ll only use your personal information to administer your account and to provide the products and services you requested from us. From time to time, we would like to contact you about our products and services, as well as other content that may be of interest to you. If you consent to us contacting you for this purpose, please tick below to say how you would like us to contact you:&lt;/label&gt;
+        &lt;label class=&quot;small&quot;&gt;In order to provide you the content requested, we need to store and process your personal data. If you consent to us storing your personal data for this purpose, please tick the checkbox below.&lt;/label&gt;
+        &lt;input type=&quot;checkbox&quot; class=&quot;form-check-input&quot; id=&quot;emailConsent&quot; /&gt;
+        &lt;label class=&quot;form-check-label&quot; for=&quot;emailConsent&quot; name=&quot;emailConsent&quot;&gt;Please send me the deck by email&lt;/label&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+  &lt;div class=&quot;card-footer&quot;&gt;
+    &lt;button type=&quot;submit&quot; class=&quot;btn btn-primary&quot;&gt;Submit&lt;/button&gt;
+  &lt;/div&gt;
+&lt;/form&gt;
+</description>
+        <pubDate>Fri, 05 Mar 2021 00:00:00 +0530</pubDate>
+        <link>https://samriddhiconsulting.com/organisation_development/Cognitive_biases_primer</link>
+        <guid isPermaLink="true">https://samriddhiconsulting.com/organisation_development/Cognitive_biases_primer</guid>
+        
+        
+        <category>Organisation_Development</category>
+        
+      </item>
     
       <item>
         <title>Making Virtual Performance Management count</title>
@@ -323,47 +615,6 @@ part series on UDL, I hope to share some of the key features of UDL and how it h
         
         
         <category>User_Experience</category>
-        
-      </item>
-    
-      <item>
-        <title>The Workforce Mash-up!</title>
-        <description>&lt;p&gt;While the Traditional are close to retiring, the other four are still very active in the workplace dynamics. Managing these often-conflicting views and needs of a diverse workforce that may cover a wide range of generations – from the Baby Boomers and Gen X to millennials and Gen Z – is a challenge for many organisations. The tension is visible between the highly experienced Baby Boomers who are mostly at the helm in their roles, the disaffected Gen Xer and the technologically savvy millennials.&lt;/p&gt;
-
-&lt;p&gt;The foundation of these differences lie in the widely different values held by each generation. Baby boomers, having grown up in a post-independence era of constrained resources and opportunities, strongly believe in the values of hard work and organisational loyalty.&lt;/p&gt;
-
-&lt;p&gt;Gen Xers, on the other hand, are highly extrinsically motivated. During their working years, they have paid off their education loans and home loans, while saving for their children’s education and their own retirement. No doubt then, they work hard – sometimes very hard – for an overtime, a promotion or a job change promising better prospects, and take nothing for granted.&lt;/p&gt;
-
-&lt;p&gt;As if the conflicts between these two weren’t enough, a huge number of millennials or Gen Y has entered the work place. It is estimated that by 2020, 50% of the global workforce will comprise of millennials. As per surveys, most millennials are happy working alongside other generations and they value older mentors – indeed, they have been raised in an era where the internet brought the world closer and live news feeds and Facebook ensured wide spread collaboration.&lt;/p&gt;
-
-&lt;p&gt;However, there are underlying signs of tensions. As per a study by PwC (Millennials at Work, 2011) 38% millennials say that older senior management do not relate to younger workers, and 34% say that their personal drive was intimidating to other generations. And almost half felt that their managers did not always understand the way they use technology at work.&lt;/p&gt;
-
-&lt;p&gt;There is some research to suggest that this may be true. The older generations sense entitlement in the millennials. It is not unusual to hear a millennial being described as “smart but lacking motivation”, but this could just as well have meant “smart but I don’t understand his/her motivation”.&lt;/p&gt;
-
-&lt;p&gt;The millennial is not your average 9 – 5 worker. They are interested in business beyond their realm of work. They will ask questions about the company’s vision, mission and purpose. They aspire to work for organisations which make a larger difference to the community. The culture and values the organisation stands for and the learning opportunities it offers them are key infliction points. Well networked, millennials rely less on the organisation for these inputs and more on social media and word of mouth.&lt;/p&gt;
-
-&lt;p&gt;Once on-board too, Gen Y is posing an exciting opportunity – for the first time the workplaces are getting intrinsically motivated people, and this is where the key talent differentiator rests. Organisations that will leverage this intrinsic motivation will emerge winners in the long run. Whoever said this will be easy is certainly joking! Baby Boomers and Gen Xers will have to unlearn and relearn the dynamics of people management. They need to re-design work plans and use their imagination to “measure performance”. Structures and hierarchies stifle the drive of most Millennials.&lt;/p&gt;
-
-&lt;p&gt;Other challenges in bridging this inter-generational gap is to create growth paths such that the Gen Y doesn’t feel blocked. With fitness levels increasing, the Gen X is looking to retire much later. This will create blocks in the traditional corporate ladder, but if HR opens a plethora of learning and growth opportunities for them – in the shape of lateral movements, secondments, rotations and strategic projects – the millennials will find their calling.&lt;/p&gt;
-
-&lt;p&gt;HR also has to be prepared to face another demographic challenge - millennials will find themselves managing older workers, some of whom may be resentful of the same. Managing a multi-generational work force demands strong leadership, recognition through the organisation that different generations may need different styles of management and a transparent performance management system that is progressive and transparent.&lt;/p&gt;
-
-&lt;p&gt;Getting future ready is the only way ahead. With Gen Z getting ready to jump into the work places sooner than any of their previous generations, are organisations ready to handle this flurry? Born just as the millennium changed, the Gen Z is the first truly digital cluster of workers. They can’t be painted with the millennials brush – multi taskers, easily distracted and entrepreneurial, this bunch of workers will not wait to complete their education to enter the workplace. Therefore, e-learning and sabbaticals have to become in-built into their career plans.&lt;/p&gt;
-
-&lt;p&gt;A progressive HR will replace traditional hierarchies with seamless work structures to effectively manage this melting pot of generations. ‘One size fits all’ programs will no longer be valued and technology plays a pivotal role in this arena. Learning management systems (LMS) to map individual e-learning needs, leveraging digital media to attract and retain the right young talent, and using advanced people management software to track their progression, are just some of the areas where technology can lend an edge to organisations.&lt;/p&gt;
-
-&lt;p&gt;A lot of change needs to be created on the intangibles though. The multi-generational workplaces can either turn into war zones or can transform into collaborative, respected centres of excellence that are looked up to in organisations. The latter is possible by only focussing on the strengths of each generation. Mentoring programs are the best example here. Baby Boomers and Gen X come with a gold mine of tactical and strategic experience, which is missing in the distracted millennials or Gen Z. The latter on the other hand are the best teachers on using technology and enhancing workplace productivity.&lt;/p&gt;
-
-&lt;p&gt;The biggest priority for HR thus becomes building trust. It is easier said than done, but once it is revealed to each of the generations that their drives and ambitions are exclusive yet complimenting each other, their insecurities can turn into synergies. Extensive coaching to senior employees on handling the younger workers, as well as sensitisation of the millennials to adapt to the older generation is a way forward.&lt;/p&gt;
-
-&lt;p&gt;What’s in it for the organisation, you may still ask? A lot! Beyond large savings in attracting and retaining the right talent, the organisations are assured a happy, engaged workforce which is motivated for the right reasons apart from pay. Their employees believe in the vision and work towards improved productivity, which in turn leads to increased customer satisfaction and quality. And the best benefit perhaps is knowledge management. The hard work and expertise of the older generations is fused with the energy and productive efficiency of the younger, to create a truly future ready organisation.&lt;/p&gt;
-</description>
-        <pubDate>Thu, 28 May 2020 00:00:00 +0530</pubDate>
-        <link>https://samriddhiconsulting.com/organisation_development/workplace_warfare</link>
-        <guid isPermaLink="true">https://samriddhiconsulting.com/organisation_development/workplace_warfare</guid>
-        
-        
-        <category>Organisation_Development</category>
         
       </item>
     
