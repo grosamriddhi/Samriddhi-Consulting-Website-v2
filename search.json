@@ -179,10 +179,6 @@
   
    {
      
-   } ,
-  
-   {
-     
         "title"    : "Unlock Sustainable Growth through Enhancing People Capability - Samriddhi Consulting",
         "category" : "",
         "tags"     : "",
@@ -220,6 +216,10 @@
         "url"      : "/page2/",
         "date"     : "",
         "content"  :  "<!--home page masthead-->\n\n<main>\n<section class=\"container-fluid text-center\">\n  <h1 class=\"display-4\">Samriddhi <wbr>Consulting</h1>\n  <p class=\"lead\">All things Growth</p>\n  <div class=\"\" style=\"max-width: 1200px;\"></div>\n  <img srcset=\"{{ page.cover | replace: 'post', 'post550' }} 550w,\n      {{ page.cover | replace: 'post', 'post750' }} 750w\n      {{page.cover}} 1200w\" src=\"{{ page.cover}}\" sizes=\"(max-width:650px) 550w, 750w, 1200w\"\n    style=\"width: 98vw; height: 52vw; max-width: 100%; max-height: 40vh; object-fit: contain;\" \n    alt=\"{{ page.coveralt}}\"\n    class=\"img-fluid\">\n    <div class=\" jumbotron bg-light text-primary text-center\">\n      <h3 class=\"display-4 \">समृद्धि: Noun</h3>\n      <p class=\"lead\">Prosperity <wbr>| Affluence <wbr>| Flourishing</p>\n    </div>\n</section>\n\n<!--about us section-->\n{% include about_us.html %}\n<hr class=\"my-4\">\n\n\n{% include capabilities.html %}\n<hr class=\"my-4\">\n\n<!--featured products -->\n<div class=\"container-fluid\">\n  <h2 class=\"display-4 text-center\">\n    {% if page.category != page.title %}\n    {% assign filtered_products = site.products | where: 'featured', true %}\n    Featured\n    {% else %}\n    {% assign filtered_products = site.products | where: 'category', page.category %}\n    Related\n    {% endif %}\n    Products</h2>\n    <div class=\"container-fluid\">\n      <div class=\"row row-cols-1 row-cols-md-3 row-cols-lg-4 my-4 justify-content-around\">\n        {% for product in filtered_products %}\n        {% include product_cards_section.html %}\n        {% endfor %}\n      </div>\n    </div>\n  </div>\n  <hr class=\"my-4\">\n\n  <!--worked_with-->\n  {% include worked_with.html %}\n  <hr class=\"my-4\">\n\n  <!--stuff we found interesting -->\n  <div class=\"container-fluid\">\n    <h2 class=\"display-4 text-center my-4\">Thoughtstarters</h2>\n    <div class=\"card-columns\">\n      {% for post in paginator.posts %}\n      <div class=\"card mb-4\">\n        <img\n          srcset=\"{{ post.cover | replace: 'post', 'post550' }} 550w,\n                  {{ post.cover | replace: 'post', 'post750' }} 750w\n                  {{post.cover}} 1200w\"\n          src=\"{{ post.cover }}\"\n          sizes =\"(max-width:650px) 550w, 750w, 1200w\"\n          loading=\"lazy\"\n          class=\"card-img-top\" alt=\"{{post.coveralt}}\">\n        <div class=\"card-body\">\n          <h3 class=\"card-title\">{{post.title}}</h3>\n          <p class=\"card-text\">{{post.subtitle}}</p>\n          <a href=\"{{post.url}}\" class=\"stretched-link\"></a>\n        </div>\n      </div>\n      {% endfor %}\n    </div>\n  </div>\n</main>"
+     
+   } ,
+  
+   {
      
    } ,
   
