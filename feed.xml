@@ -1,22 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<feed version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
     <title>All things Growth | Samriddhi Consulting</title>
     <description>At Samriddhi, we love to look forward and walk into uncharted territories to bring back innovative solutions for our partner clients</description>
-    <id>https://samriddhiconsulting.com/</id>
     <link>https://samriddhiconsulting.com/</link>
     <atom:link href="https://samriddhiconsulting.com/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Wed, 30 Jun 2021 15:20:20 +0530</pubDate>
-    <lastBuildDate>Wed, 30 Jun 2021 15:20:20 +0530</lastBuildDate>
-    <updated>Wed, 30 Jun 2021 15:20:20 +0530</updated>
-    <link rel="self" href="/feed" />
-    <icon>"/favicon.ico"</icon>
-    <logo>/assets/images/Samriddhi_Consulting_Logo.svg</logo>
+    <pubDate>Sun, 04 Jul 2021 14:54:47 +0530</pubDate>
+    <lastBuildDate>Sun, 04 Jul 2021 14:54:47 +0530</lastBuildDate>
     <generator>Jekyll v4.2.0</generator>
     
-      <entry>
+      <item>
         <title>Vulnerability and trust</title>
-        <subtitle>The choices we make to build strong workplace relationships</subtitle>
-        <summary></summary>
         <description>&lt;p&gt;Satya read my last blog post and in his usual style, pointed me in the direction of thinking deeper about a related topic. Rightly so, in fact. My last post on vulnerability asked tons of questions – those I don’t have answers to today and those which will only be answered as we grow as a society. But what Satya highlighted was the importance of understanding a subject we have answers to and is impacting us today - how vulnerability interlinks with trust at workplaces, and its various manifestations, especially in leader-follower relationships.&lt;/p&gt;
 
 &lt;p&gt;This got me onto an exciting research spree on this vast topic. Up until last year, I had only studied the works of the brilliant Brene Brown, when it came to vulnerability and courage. I had read Paul Zak and how the neuroscience of Trust impacts workplace productivity. However, to understand how the two subjects mingle, I dug deeper into the studies by Jeff Polzer, Daniel Coyle, Roger Mayer, and more.&lt;/p&gt;
@@ -48,26 +42,16 @@
 &lt;/blockquote&gt;
 </description>
         <pubDate>Mon, 28 Jun 2021 10:30:00 +0530</pubDate>
-        <published>Mon, 28 Jun 2021 10:30:00 +0530</published>
         <link>https://samriddhiconsulting.com/organisation_development/vulnerability-trust</link>
         <guid isPermaLink="true">https://samriddhiconsulting.com/organisation_development/vulnerability-trust</guid>
-        <id isPermaLink="true">https://samriddhiconsulting.com/organisation_development/vulnerability-trust</id>
         
         
         <category>organisation_development</category>
         
-        
-        <author>
-          <name>Pranesh Nagarajan</name>
-          <uri>https://www.linkedin.com/in/praneshnagarajan/</uri>
-          <email>Pranesh@grosamriddhi.com
-        </author>
-      </entry>
+      </item>
     
-      <entry>
+      <item>
         <title>Being Vulnerable</title>
-        <subtitle>Saying &lt;i&gt;I am weak&lt;/i&gt;, takes courage</subtitle>
-        <summary></summary>
         <description>&lt;p&gt;I am writing after an extraordinarily long time. I couldn’t get myself to…amidst the disturbing second wave of the pandemic in India. The losses of those so dear to me like my mentor and my best friend’s father felt too painful to recover from. But this post isn’t about the negativity, it’s about emerging from it.&lt;/p&gt;
 
 &lt;p&gt;With the worst hopefully behind us, I took to reading some of the more positive pieces of news. The most striking one in recent days that encouraged me to write, was the uplifting news of Naomi Osaka. The 23-years old tennis superstar has shocked the sports world by announcing that she will withdraw from this year’s French Open. It all started when she announced that she wouldn’t participate in any post-game press conferences. According to this emotionally intelligent athlete, these press conferences only kicked down the loser, at a time when s/he was already at a low. That made so much sense to me… Refreshingly!&lt;/p&gt;
@@ -85,26 +69,16 @@
 &lt;p&gt;It takes courage to build such a culture - and Osaka’s news had given me hope that as the world of sports evolves to make way for a new form of strength, the corporate leaders will also explore the place of vulnerability and empathy in their businesses.&lt;/p&gt;
 </description>
         <pubDate>Thu, 03 Jun 2021 10:30:00 +0530</pubDate>
-        <published>Thu, 03 Jun 2021 10:30:00 +0530</published>
         <link>https://samriddhiconsulting.com/organisation_development/being-vulnerable</link>
         <guid isPermaLink="true">https://samriddhiconsulting.com/organisation_development/being-vulnerable</guid>
-        <id isPermaLink="true">https://samriddhiconsulting.com/organisation_development/being-vulnerable</id>
         
         
         <category>organisation_development</category>
         
-        
-        <author>
-          <name>Pranesh Nagarajan</name>
-          <uri>https://www.linkedin.com/in/praneshnagarajan/</uri>
-          <email>Pranesh@grosamriddhi.com
-        </author>
-      </entry>
+      </item>
     
-      <entry>
+      <item>
         <title>Putting Universal Design for Learning into Action</title>
-        <subtitle>How the three brain networks make learning ‘stick’</subtitle>
-        <summary></summary>
         <description>&lt;p&gt;In this three-part blog post series, I have shared some of my reasons for using UDL principles in my instruction design. If that’s interested you so far, you will certainly find this last post helpful in a more practical and hands-on way.&lt;/p&gt;
 
 &lt;p&gt;Let me begin by asking this – what’s the first thing you would do if you had to design a training program around a given set of training needs? Most training and development professionals I meet start by opening their MS PowerPoint or equivalent tool. What follows then is a traditional course requiring students to attend the ILT/ v-ILT, read specific texts, and then take a quiz or assessment at the end of the course to demonstrate their understanding. The outcome of such a program is content that leans more towards the style of the course creator, rather than being universal in its access and approach, like we discussed in the first blog post.&lt;/p&gt;
@@ -159,26 +133,16 @@
 &lt;p&gt;These are of course just a set of techniques that have held me in good stead while designing accessible and inclusive learning content. Feel free to apply these in your own context. Hope you enjoyed this blog post series. Look forward to hearing from you about your thoughts about inclusive learning and your experiments with UDL.&lt;/p&gt;
 </description>
         <pubDate>Thu, 15 Apr 2021 10:30:00 +0530</pubDate>
-        <published>Thu, 15 Apr 2021 10:30:00 +0530</published>
         <link>https://samriddhiconsulting.com/instructional_design/putting-universal-design-for-learning-into-action</link>
         <guid isPermaLink="true">https://samriddhiconsulting.com/instructional_design/putting-universal-design-for-learning-into-action</guid>
-        <id isPermaLink="true">https://samriddhiconsulting.com/instructional_design/putting-universal-design-for-learning-into-action</id>
         
         
         <category>Instructional_Design</category>
         
-        
-        <author>
-          <name>Pranesh Nagarajan</name>
-          <uri>https://www.linkedin.com/in/praneshnagarajan/</uri>
-          <email>Pranesh@grosamriddhi.com
-        </author>
-      </entry>
+      </item>
     
-      <entry>
+      <item>
         <title>Universal Design for Learning: The history and the future </title>
-        <subtitle>The future of learning is changing, and how!</subtitle>
-        <summary></summary>
         <description>&lt;p&gt;With its roots deep into accessibility, I found it hardly surprising that the origins of Universal Design were in architecture. Ronald Mace, an American architect and product designer, coined the term Universal Design – as a means to promote the design of products and spaces that would be accessible to all people, and still meet the requirements of the Americans with Disabilities Act (ADA).&lt;/p&gt;
 
 &lt;p&gt;This early version permitted a lot of flexibility to users and designers alike, and soon started to appeal to designers of classroom and other educational facilities where physical access was important. Although this helped schools include students with disabilities in a classroom, it still left a lacuna when it came to access to curriculum.&lt;/p&gt;
@@ -206,26 +170,16 @@
 &lt;p&gt;In the next and the last part of these blog post series dedicated to UDL, I will be sharing some of the ways we can use UDL guidelines in our context and some universal design for learning examples of my favourites!&lt;/p&gt;
 </description>
         <pubDate>Wed, 07 Apr 2021 10:30:00 +0530</pubDate>
-        <published>Wed, 07 Apr 2021 10:30:00 +0530</published>
         <link>https://samriddhiconsulting.com/instructional_design/universal-design-for-learning-the-history-and-the-future</link>
         <guid isPermaLink="true">https://samriddhiconsulting.com/instructional_design/universal-design-for-learning-the-history-and-the-future</guid>
-        <id isPermaLink="true">https://samriddhiconsulting.com/instructional_design/universal-design-for-learning-the-history-and-the-future</id>
         
         
         <category>Instructional_Design</category>
         
-        
-        <author>
-          <name>Pranesh Nagarajan</name>
-          <uri>https://www.linkedin.com/in/praneshnagarajan/</uri>
-          <email>Pranesh@grosamriddhi.com
-        </author>
-      </entry>
+      </item>
     
-      <entry>
+      <item>
         <title>Cognitive Biases Primer</title>
-        <subtitle>Types, watch-outs and work-arounds!​</subtitle>
-        <summary></summary>
         <description>&lt;p&gt;With their origins in the hunter-gatherer evolution of humans, cognitive biases are deeply rooted into our neuroscience​. These are mental shortcuts (known as heuristics), that help us make sense of the vast information around us​. Without them, we will be crippled when it comes to fast decision making and survival.​&lt;/p&gt;
 
 &lt;h3 id=&quot;so-theres-nothing-wrong-with-having-unconscious-bias-right-&quot;&gt;So there’s nothing wrong with having unconscious bias, right? ​&lt;/h3&gt;
@@ -504,26 +458,16 @@
 &lt;/form&gt;
 </description>
         <pubDate>Fri, 05 Mar 2021 10:30:00 +0530</pubDate>
-        <published>Fri, 05 Mar 2021 10:30:00 +0530</published>
         <link>https://samriddhiconsulting.com/organisation_development/cognitive_biases_primer</link>
         <guid isPermaLink="true">https://samriddhiconsulting.com/organisation_development/cognitive_biases_primer</guid>
-        <id isPermaLink="true">https://samriddhiconsulting.com/organisation_development/cognitive_biases_primer</id>
         
         
         <category>Organisation_Development</category>
         
-        
-        <author>
-          <name>Pranesh Nagarajan</name>
-          <uri>https://www.linkedin.com/in/praneshnagarajan/</uri>
-          <email>Pranesh@grosamriddhi.com
-        </author>
-      </entry>
+      </item>
     
-      <entry>
+      <item>
         <title>Making Virtual Performance Management count</title>
-        <subtitle>One-on-one’s can be effective, even on a video call</subtitle>
-        <summary></summary>
         <description>&lt;p&gt;It’s that time of the year again. We are scheduling reviews, blocking one-on-ones with direct reports and managers, and going over our performance records (even photos of that virtual game show you hosted to showcase your team management skills!). Like every year, performance management time brings a certain whiff in the air – part excitement, part trepidation and definitely a lot of time pressure. 
 But that was every year and 2020 has not been like ‘every’ year! 
 Just like the other aspects of people management, performance appraisals are also impacted this year. With most of the workforce working remotely for a large part of the year and many targets getting impacted, companies are rethinking their performance metrics closely. Not only are organisations reconsidering the year-gone-by, they are also reviewing how new targets should be set up. 
@@ -582,26 +526,16 @@ Here’s wishing everyone a highly productive appraisal season in this new norma
 &lt;/form&gt;
 </description>
         <pubDate>Sun, 14 Feb 2021 10:30:00 +0530</pubDate>
-        <published>Sun, 14 Feb 2021 10:30:00 +0530</published>
         <link>https://samriddhiconsulting.com/organisation_development/making_virtual_performance_management_count</link>
         <guid isPermaLink="true">https://samriddhiconsulting.com/organisation_development/making_virtual_performance_management_count</guid>
-        <id isPermaLink="true">https://samriddhiconsulting.com/organisation_development/making_virtual_performance_management_count</id>
         
         
         <category>Organisation_Development</category>
         
-        
-        <author>
-          <name>Pranesh Nagarajan</name>
-          <uri>https://www.linkedin.com/in/praneshnagarajan/</uri>
-          <email>Pranesh@grosamriddhi.com
-        </author>
-      </entry>
+      </item>
     
-      <entry>
+      <item>
         <title>Celebrating work and diversity</title>
-        <subtitle>Many miles to go; enjoying every success</subtitle>
-        <summary></summary>
         <description>&lt;p&gt;This is exactly why I’m a fan of virtual facilitations! It brings people from different corners of the world together. Perhaps more importantly, it helps me filter the truly keen learners from those who have been mandated!&lt;/p&gt;
 
 &lt;p&gt;Our certified diversity facilitator workshop on March 2nd was another testimony to my belief. All of us were there in that frame because we truly believed in the cause of inclusion. The discussions in the breakout rooms were evidence of how engaged a virtual setup can get because as a participant I am getting views from such a diverse audience about D&amp;amp;I. We all stayed till the end because we really wanted to reflect on what insights Shruthi Gokuldas - our fireside chat guest - had to bring in. Rarely do you come across a leader who is willing to use her stories and vulnerabilities to drive home important learnings.&lt;/p&gt;
@@ -617,26 +551,16 @@ Here’s wishing everyone a highly productive appraisal season in this new norma
 &lt;p&gt;For us, diversity is not a once in a year reminder on a special day. It is not an elitist cause to support. It is a belief, a future that we believe is sustainable because it makes business sense. And I am today proud to have taken a small step to create this community.&lt;/p&gt;
 </description>
         <pubDate>Fri, 22 Jan 2021 10:30:00 +0530</pubDate>
-        <published>Fri, 22 Jan 2021 10:30:00 +0530</published>
         <link>https://samriddhiconsulting.com/instructional_design/celebrating_work_and_diversity</link>
         <guid isPermaLink="true">https://samriddhiconsulting.com/instructional_design/celebrating_work_and_diversity</guid>
-        <id isPermaLink="true">https://samriddhiconsulting.com/instructional_design/celebrating_work_and_diversity</id>
         
         
         <category>Instructional_Design</category>
         
-        
-        <author>
-          <name>Pranesh Nagarajan</name>
-          <uri>https://www.linkedin.com/in/praneshnagarajan/</uri>
-          <email>Pranesh@grosamriddhi.com
-        </author>
-      </entry>
+      </item>
     
-      <entry>
+      <item>
         <title>Adapting GTM practice to the New Normal</title>
-        <subtitle>We have had to adapt quickly to deal with the changes bought on by the pandemic</subtitle>
-        <summary></summary>
         <description>&lt;p&gt;When the pandemic struck, it was evident that it would cause a tectonic change in the Go-to-Market (GTM) world. With so much turbulence, we decided to focus our GTM efforts in managing our Instructional Design practice, to weather the storm. As the skies cleared, it became immediately apparent that we had to zoom into our GTM practice.&lt;/p&gt;
 
 &lt;p&gt;We have officially and audaciously split our GTM work into three key areas:&lt;/p&gt;
@@ -685,26 +609,16 @@ Here’s wishing everyone a highly productive appraisal season in this new norma
 
 </description>
         <pubDate>Fri, 22 Jan 2021 10:30:00 +0530</pubDate>
-        <published>Fri, 22 Jan 2021 10:30:00 +0530</published>
         <link>https://samriddhiconsulting.com/general/changes_in_gtm_practice</link>
         <guid isPermaLink="true">https://samriddhiconsulting.com/general/changes_in_gtm_practice</guid>
-        <id isPermaLink="true">https://samriddhiconsulting.com/general/changes_in_gtm_practice</id>
         
         
         <category>General</category>
         
-        
-        <author>
-          <name>Pranesh Nagarajan</name>
-          <uri>https://www.linkedin.com/in/praneshnagarajan/</uri>
-          <email>Pranesh@grosamriddhi.com
-        </author>
-      </entry>
+      </item>
     
-      <entry>
+      <item>
         <title>Usher in the era of Agility</title>
-        <subtitle>2021 is the year of agility</subtitle>
-        <summary></summary>
         <description>&lt;p&gt;At the outset, a very happy New year to everyone. Never has it felt like such an achievement! The last year felt like a Ninja obstacle course, what with the ongoing pandemic, series of lockdowns and varied protests across the world. No doubt, we have all emerged better, stronger and more grateful on the other side but it’s now time to look ahead at what this new year could bring for us.&lt;/p&gt;
 
 &lt;p&gt;2020 has prepared us in a journey towards agility. Our response time and resilience in the face of crisis was tested in so many different ways last year. Almost every business had to think differently. In some situations, it was just important to turn up and engage with employees and customers. Even if the response was not optimised, our last-minute agility demanded that we reacted and adapted. Many of us felt the repercussions spill into our personal lives and interpersonal relationships too. 
@@ -728,26 +642,16 @@ Every day of the year, we were adapting to the situation, to the present. But no
 &lt;p&gt;2021 is the time to really build our muscle and put agility into action, in all aspects of our lives – personal and professional&lt;/p&gt;
 </description>
         <pubDate>Mon, 11 Jan 2021 10:30:00 +0530</pubDate>
-        <published>Mon, 11 Jan 2021 10:30:00 +0530</published>
         <link>https://samriddhiconsulting.com/instructional_design/usher_in_the_era_of_agility</link>
         <guid isPermaLink="true">https://samriddhiconsulting.com/instructional_design/usher_in_the_era_of_agility</guid>
-        <id isPermaLink="true">https://samriddhiconsulting.com/instructional_design/usher_in_the_era_of_agility</id>
         
         
         <category>Instructional_Design</category>
         
-        
-        <author>
-          <name>Pranesh Nagarajan</name>
-          <uri>https://www.linkedin.com/in/praneshnagarajan/</uri>
-          <email>Pranesh@grosamriddhi.com
-        </author>
-      </entry>
+      </item>
     
-      <entry>
+      <item>
         <title>Universal Design for Learning - An Introduction</title>
-        <subtitle>Making learning design accessible to a diverse set of learners</subtitle>
-        <summary></summary>
         <description>&lt;p&gt;The human mind in general and how it learns, in specific, has been a realm of fascination and delight for me, for many years now. We used to think that the whole subject of learning new things ends once we finish our formal education and enter the workplace. Of course, now we know that the truth couldn’t be further from there. Learning for life is a deeper reality than earlier considered.&lt;/p&gt;
 
 &lt;p&gt;Either way, whether approaching formal academic education or professional learning, the truth about how our mind absorbs new information remains the same. More importantly, the challenges around those learning are also similar - the primary one amongst them being how to make learning accessible to everyone. When I think about the building blocks of learning, I start with accessibility. How will a person learn if the knowledge or skill being learnt is difficult to access?&lt;/p&gt;
@@ -766,20 +670,13 @@ part series on UDL, I hope to share some of the key features of UDL and how it h
 &lt;p&gt;That is what makes this body of work so intense and I’ve never stopped going back to it as my sine qua non. It takes a lot of research and deep analysis of learning and neuroscience to develop a model like UDL. It’s deceptively simple and is mostly used for academic learning design to ensure our classrooms are more inclusive to all types of learners. The possibilities of applying it into our professional learning experiences are however endless.&lt;/p&gt;
 </description>
         <pubDate>Wed, 28 Oct 2020 10:30:00 +0530</pubDate>
-        <published>Wed, 28 Oct 2020 10:30:00 +0530</published>
         <link>https://samriddhiconsulting.com/instructional_design/universal_design_for_learning-an_introduction</link>
         <guid isPermaLink="true">https://samriddhiconsulting.com/instructional_design/universal_design_for_learning-an_introduction</guid>
-        <id isPermaLink="true">https://samriddhiconsulting.com/instructional_design/universal_design_for_learning-an_introduction</id>
         
         
         <category>Instructional_Design</category>
         
-        
-        <author>
-          <name>Pranesh Nagarajan</name>
-          <uri>https://www.linkedin.com/in/praneshnagarajan/</uri>
-          <email>Pranesh@grosamriddhi.com
-        </author>
-      </entry>
+      </item>
     
-</feed>
+  </channel>
+</rss>
