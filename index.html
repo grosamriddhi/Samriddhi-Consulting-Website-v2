@@ -40,7 +40,7 @@
   <title>Unlock Sustainable Growth through Enhancing People Capability - Samriddhi Consulting | All things Growth | Samriddhi Consulting</title>
   
   <meta name="description"
-    content="  Samriddhi Consulting  All things Growth              समृद्धि: Noun:       Prosperity | Affluence | Flourishing    {% include about_us. html %}{% include ca...">
+    content="                                                                            {% if page. credits %}        Image Credit         {% endif %}                   ...">
 
     <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:site" content="@grosamriddhi">
@@ -234,24 +234,34 @@
   <!--home page masthead-->
 
 <main>
-<section class="container-fluid text-center">
-  <h1 class="display-4">Samriddhi <wbr>Consulting</h1>
-  <p class="lead">All things Growth</p>
-  <div class="" style="max-width: 1200px;"></div>
-  <img srcset="/assets/images/homepage_background-post550.jpg 550w,
-      /assets/images/homepage_background-post750.jpg 750w
-      /assets/images/homepage_background-post.jpg 1200w" src="/assets/images/homepage_background-post.jpg" sizes="(max-width:650px) 550w, 750w, 1200w"
-    style="width: 98vw; height: 52vw; max-width: 100%; max-height: 40vh; object-fit: contain;" 
-    alt="A green leaf symbolising growth"
-    class="img-fluid">
-    <div class=" jumbotron bg-light text-primary text-center">
-      <h3 class="display-4 ">समृद्धि: Noun</h3>
-      <p class="lead">Prosperity <wbr>| Affluence <wbr>| Flourishing</p>
+  <section class="container-fluid col-xl-9 text-center">
+    <div class="row justify-content-evenly">
+      <picture class="col-md-6">
+        <source srcset="/assets/images/homepage_background-post550.webp" type="image/webp"
+          media="(max-width:550px)">
+        <source srcset="/assets/images/homepage_background-post750.webp" type="image/webp"
+          media="(max-width:750px)">
+        <source srcset="/assets/images/homepage_background-post.webp" type="image/webp"
+          media="(min-width:751px)">
+        <source srcset="/assets/images/homepage_background-post550.jpg" type="image/jpg" media="(max-width:550px)">
+        <source srcset="/assets/images/homepage_background-post750.jpg" type="image/jpg" media="(max-width:750px)">
+        <source srcset="/assets/images/homepage_background-post.jpg" type="image/jpg" media="(min-width:751px)">
+        <img src="/assets/images/homepage_background-post.jpg" style="" alt="A green leaf symbolising growth" class="clover mb-2 h-100">
+        
+      </picture>
+      <div class="card col-md-6 border-0">
+        <h1 class="card-header bg-primary text-white">Samriddhi <wbr>Consulting</h1>
+        <h2 class="card-body">All things Growth</h2>
+        <div class="card-footer bg-transparent">
+          <h2 class="">समृद्धि: Noun</h2>
+          <p class="">Prosperity <wbr>| Affluence <wbr>| Flourishing</p>
+        </div>
+      </div>
     </div>
-</section>
+  </section>
 
-<!--about us section-->
-<div class="container-fluid">
+  <!--about us section-->
+  <div class="container-fluid">
   <div class="jumbotron bg-transparent mx-auto col-11 col-lg-6">
     <h2 class="display-4 text-center">About</h2>
     <p class="lead">
@@ -268,25 +278,31 @@
     </p>
   </div>
 </div>
-<hr class="my-4">
+  <hr class="my-4">
 
 
-<div class="container-fluid">
+  <div class="container-fluid">
   <h2 class="display-4 text-center">What We Do</h2>
   <div class="container-fluid">
     <div class="row row-cols-1 row-cols-md-3 row-cols-lg-4 my-4 justify-content-around">
       
       <div class="col">
         <div class="card text-center h-100 border-0">
-          <img
-            srcset="/assets/images/instructional_design_art_and_science-post550.jpg 550w,
-                    /assets/images/instructional_design_art_and_science-post750.jpg 750w
-                    /assets/images/instructional_design_art_and_science-post.jpg 1200w"
-            src="/assets/images/instructional_design_art_and_science-post.jpg"
-            sizes ="(max-width:650px) 550w, 750w, 1200w"
-            loading="lazy"
-            class="card-img-top"
-            alt="A firing neuron">
+          <picture class="">
+            <source srcset="/assets/images/instructional_design_art_and_science-post550.webp" type="image/webp"
+              media="(max-width:550px)">
+            <source srcset="/assets/images/instructional_design_art_and_science-post750.webp" type="image/webp"
+              media="(max-width:750px)">
+            <source srcset="/assets/images/instructional_design_art_and_science-post.webp" type="image/webp"
+              media="(min-width:751px)">
+            <source srcset="/assets/images/instructional_design_art_and_science-post550.jpg" type="image/jpg"
+              media="(max-width:550px)">
+            <source srcset="/assets/images/instructional_design_art_and_science-post750.jpg" type="image/jpg"
+              media="(max-width:750px)">
+            <source srcset="/assets/images/instructional_design_art_and_science-post.jpg" type="image/jpg" media="(min-width:751px)">
+            <img src="/assets/images/instructional_design_art_and_science-post.jpg" style="" alt="A firing neuron" class="card-img-top" loading="lazy">
+            
+          </picture>
           <div class="card-body">
             <h5 class="card-title">Instructional Design</h5>
             <p class="card-text">art of learner engagement<br>+<br>science of how the brain works</p>
@@ -297,15 +313,21 @@
       
       <div class="col">
         <div class="card text-center h-100 border-0">
-          <img
-            srcset="/assets/images/organisation_development-post550.jpg 550w,
-                    /assets/images/organisation_development-post750.jpg 750w
-                    /assets/images/organisation_development-post.jpg 1200w"
-            src="/assets/images/organisation_development-post.jpg"
-            sizes ="(max-width:650px) 550w, 750w, 1200w"
-            loading="lazy"
-            class="card-img-top"
-            alt="Black and White photo of a sharp pencil and pencil shavings">
+          <picture class="">
+            <source srcset="/assets/images/organisation_development-post550.webp" type="image/webp"
+              media="(max-width:550px)">
+            <source srcset="/assets/images/organisation_development-post750.webp" type="image/webp"
+              media="(max-width:750px)">
+            <source srcset="/assets/images/organisation_development-post.webp" type="image/webp"
+              media="(min-width:751px)">
+            <source srcset="/assets/images/organisation_development-post550.jpg" type="image/jpg"
+              media="(max-width:550px)">
+            <source srcset="/assets/images/organisation_development-post750.jpg" type="image/jpg"
+              media="(max-width:750px)">
+            <source srcset="/assets/images/organisation_development-post.jpg" type="image/jpg" media="(min-width:751px)">
+            <img src="/assets/images/organisation_development-post.jpg" style="" alt="Black and White photo of a sharp pencil and pencil shavings" class="card-img-top" loading="lazy">
+            
+          </picture>
           <div class="card-body">
             <h5 class="card-title">Organisation Development</h5>
             <p class="card-text">Take your organisation to the next growth orbit through sharp interventions</p>
@@ -316,15 +338,21 @@
       
       <div class="col">
         <div class="card text-center h-100 border-0">
-          <img
-            srcset="/assets/images/ux-post550.jpg 550w,
-                    /assets/images/ux-post750.jpg 750w
-                    /assets/images/ux-post.jpg 1200w"
-            src="/assets/images/ux-post.jpg"
-            sizes ="(max-width:650px) 550w, 750w, 1200w"
-            loading="lazy"
-            class="card-img-top"
-            alt="Woman's hands drawing a wireframe">
+          <picture class="">
+            <source srcset="/assets/images/ux-post550.webp" type="image/webp"
+              media="(max-width:550px)">
+            <source srcset="/assets/images/ux-post750.webp" type="image/webp"
+              media="(max-width:750px)">
+            <source srcset="/assets/images/ux-post.webp" type="image/webp"
+              media="(min-width:751px)">
+            <source srcset="/assets/images/ux-post550.jpg" type="image/jpg"
+              media="(max-width:550px)">
+            <source srcset="/assets/images/ux-post750.jpg" type="image/jpg"
+              media="(max-width:750px)">
+            <source srcset="/assets/images/ux-post.jpg" type="image/jpg" media="(min-width:751px)">
+            <img src="/assets/images/ux-post.jpg" style="" alt="Woman's hands drawing a wireframe" class="card-img-top" loading="lazy">
+            
+          </picture>
           <div class="card-body">
             <h5 class="card-title">User Experience</h5>
             <p class="card-text">Interactions that drive Consumer, Customer and Employee Delight</p>
@@ -336,32 +364,35 @@
     </div>
   </div>
 </div>
+  <hr class="my-4">
 
-<hr class="my-4">
-
-<!--featured products -->
-<div class="container-fluid">
-  <h2 class="display-4 text-center">
-    
-    
-    Featured
-    
-    Products</h2>
+  <!--featured products -->
+  <div class="container-fluid">
+    <h2 class="display-4 text-center">
+      
+      
+      Featured
+      
+      Products</h2>
     <div class="container-fluid">
       <div class="row row-cols-1 row-cols-md-3 row-cols-lg-4 my-4 justify-content-around">
         
-        
-<div class="col">
+        <div class="col">
   <a href="/instructional_design/jitl" class="text-decoration-none">
     <div class="card border-0 h-100 text-center">
-      <img
-        srcset="/assets/images/jitl-post550.jpg 550w,
-                /assets/images/jitl-post750.jpg 750w
-                /assets/images/jitl-post.jpg 1200w"
-        src="/assets/images/jitl-post.jpg"
-        sizes ="(max-width:650px) 550w, 750w, 1200w"
-        loading="lazy"
-        class="card-img-top" alt="Desk with a laptop, smartphone, notebook and coffee">
+      <picture class="">
+        <source srcset="/assets/images/jitl-post550.webp" type="image/webp"
+          media="(max-width:550px)">
+        <source srcset="/assets/images/jitl-post750.webp" type="image/webp"
+          media="(max-width:750px)">
+        <source srcset="/assets/images/jitl-post.webp" type="image/webp"
+          media="(min-width:751px)">
+        <source srcset="/assets/images/jitl-post550.jpg" type="image/jpg" media="(max-width:550px)">
+        <source srcset="/assets/images/jitl-post750.jpg" type="image/jpg" media="(max-width:750px)">
+        <source srcset="/assets/images/jitl-post.jpg" type="image/jpg" media="(min-width:751px)">
+        <img src="/assets/images/jitl-post.jpg" style="" alt="Desk with a laptop, smartphone, notebook and coffee" class="card-img-top" loading="lazy">
+        
+      </picture>
       <div class="card-body">
         <h3 class="card-title">Jit_L</h3>
         <p class="card-text">The age of (Just-in-Time) JIT Learning is here!</p>
@@ -372,20 +403,23 @@
     </div>
   </a>
 </div>
-
         
-        
-<div class="col">
+        <div class="col">
   <a href="/instructional_design/learning_architechture" class="text-decoration-none">
     <div class="card border-0 h-100 text-center">
-      <img
-        srcset="/assets/images/learning_architecture-post550.jpg 550w,
-                /assets/images/learning_architecture-post750.jpg 750w
-                /assets/images/learning_architecture-post.jpg 1200w"
-        src="/assets/images/learning_architecture-post.jpg"
-        sizes ="(max-width:650px) 550w, 750w, 1200w"
-        loading="lazy"
-        class="card-img-top" alt="Red Apple on 4 book pile with alphabet blocks and colour pencils on a desk">
+      <picture class="">
+        <source srcset="/assets/images/learning_architecture-post550.webp" type="image/webp"
+          media="(max-width:550px)">
+        <source srcset="/assets/images/learning_architecture-post750.webp" type="image/webp"
+          media="(max-width:750px)">
+        <source srcset="/assets/images/learning_architecture-post.webp" type="image/webp"
+          media="(min-width:751px)">
+        <source srcset="/assets/images/learning_architecture-post550.jpg" type="image/jpg" media="(max-width:550px)">
+        <source srcset="/assets/images/learning_architecture-post750.jpg" type="image/jpg" media="(max-width:750px)">
+        <source srcset="/assets/images/learning_architecture-post.jpg" type="image/jpg" media="(min-width:751px)">
+        <img src="/assets/images/learning_architecture-post.jpg" style="" alt="Red Apple on 4 book pile with alphabet blocks and colour pencils on a desk" class="card-img-top" loading="lazy">
+        
+      </picture>
       <div class="card-body">
         <h3 class="card-title">Learning Architecture</h3>
         <p class="card-text">Toolkit for a Learning Center of Excellence</p>
@@ -396,7 +430,6 @@
     </div>
   </a>
 </div>
-
         
       </div>
     </div>
@@ -538,14 +571,40 @@
     <div class="card-columns">
       
       <div class="card mb-4">
-        <img
-          srcset="/assets/images/vulnerability-trust-post550.jpg 550w,
-                  /assets/images/vulnerability-trust-post750.jpg 750w
-                  /assets/images/vulnerability-trust-post.jpg 1200w"
-          src="/assets/images/vulnerability-trust-post.jpg"
-          sizes ="(max-width:650px) 550w, 750w, 1200w"
-          loading="lazy"
-          class="card-img-top" alt="silhouette of people following a leader on a hill">
+        <picture class="">
+          <source srcset="/assets/images/trust-new-normal-post550.webp" type="image/webp"
+            media="(max-width:550px)">
+          <source srcset="/assets/images/trust-new-normal-post750.webp" type="image/webp"
+            media="(max-width:750px)">
+          <source srcset="/assets/images/trust-new-normal-post.webp" type="image/webp"
+            media="(min-width:751px)">
+          <source srcset="/assets/images/trust-new-normal-post550.jpg" type="image/jpg" media="(max-width:550px)">
+          <source srcset="/assets/images/trust-new-normal-post750.jpg" type="image/jpg" media="(max-width:750px)">
+          <source srcset="/assets/images/trust-new-normal-post.jpg" type="image/jpg" media="(min-width:751px)">
+          <img src="/assets/images/trust-new-normal-post.jpg" style="" alt="Plant growing in front of a virtual meeting" class="card-img-top" loading="lazy">
+          
+        </picture>
+        <div class="card-body">
+          <h3 class="card-title">Trust in the new normal</h3>
+          <p class="card-text">Make room for more</p>
+          <a href="/organisation_development/trust-new-normal" class="stretched-link"></a>
+        </div>
+      </div>
+      
+      <div class="card mb-4">
+        <picture class="">
+          <source srcset="/assets/images/vulnerability-trust-post550.webp" type="image/webp"
+            media="(max-width:550px)">
+          <source srcset="/assets/images/vulnerability-trust-post750.webp" type="image/webp"
+            media="(max-width:750px)">
+          <source srcset="/assets/images/vulnerability-trust-post.webp" type="image/webp"
+            media="(min-width:751px)">
+          <source srcset="/assets/images/vulnerability-trust-post550.jpg" type="image/jpg" media="(max-width:550px)">
+          <source srcset="/assets/images/vulnerability-trust-post750.jpg" type="image/jpg" media="(max-width:750px)">
+          <source srcset="/assets/images/vulnerability-trust-post.jpg" type="image/jpg" media="(min-width:751px)">
+          <img src="/assets/images/vulnerability-trust-post.jpg" style="" alt="silhouette of people following a leader on a hill" class="card-img-top" loading="lazy">
+          
+        </picture>
         <div class="card-body">
           <h3 class="card-title">Vulnerability and trust</h3>
           <p class="card-text">The choices we make to build strong workplace relationships</p>
@@ -554,14 +613,19 @@
       </div>
       
       <div class="card mb-4">
-        <img
-          srcset="/assets/images/naomi_osaka-post550.jpg 550w,
-                  /assets/images/naomi_osaka-post750.jpg 750w
-                  /assets/images/naomi_osaka-post.jpg 1200w"
-          src="/assets/images/naomi_osaka-post.jpg"
-          sizes ="(max-width:650px) 550w, 750w, 1200w"
-          loading="lazy"
-          class="card-img-top" alt="tennis player naomi osaka hitting a forehand in practice">
+        <picture class="">
+          <source srcset="/assets/images/naomi_osaka-post550.webp" type="image/webp"
+            media="(max-width:550px)">
+          <source srcset="/assets/images/naomi_osaka-post750.webp" type="image/webp"
+            media="(max-width:750px)">
+          <source srcset="/assets/images/naomi_osaka-post.webp" type="image/webp"
+            media="(min-width:751px)">
+          <source srcset="/assets/images/naomi_osaka-post550.jpg" type="image/jpg" media="(max-width:550px)">
+          <source srcset="/assets/images/naomi_osaka-post750.jpg" type="image/jpg" media="(max-width:750px)">
+          <source srcset="/assets/images/naomi_osaka-post.jpg" type="image/jpg" media="(min-width:751px)">
+          <img src="/assets/images/naomi_osaka-post.jpg" style="" alt="tennis player naomi osaka hitting a forehand in practice" class="card-img-top" loading="lazy">
+          
+        </picture>
         <div class="card-body">
           <h3 class="card-title">Being Vulnerable</h3>
           <p class="card-text">Saying <i>I am weak</i>, takes courage</p>
@@ -570,14 +634,19 @@
       </div>
       
       <div class="card mb-4">
-        <img
-          srcset="/assets/images/udl_lego_blocks-post550.jpg 550w,
-                  /assets/images/udl_lego_blocks-post750.jpg 750w
-                  /assets/images/udl_lego_blocks-post.jpg 1200w"
-          src="/assets/images/udl_lego_blocks-post.jpg"
-          sizes ="(max-width:650px) 550w, 750w, 1200w"
-          loading="lazy"
-          class="card-img-top" alt="building a design with different types of lego blocks">
+        <picture class="">
+          <source srcset="/assets/images/udl_lego_blocks-post550.webp" type="image/webp"
+            media="(max-width:550px)">
+          <source srcset="/assets/images/udl_lego_blocks-post750.webp" type="image/webp"
+            media="(max-width:750px)">
+          <source srcset="/assets/images/udl_lego_blocks-post.webp" type="image/webp"
+            media="(min-width:751px)">
+          <source srcset="/assets/images/udl_lego_blocks-post550.jpg" type="image/jpg" media="(max-width:550px)">
+          <source srcset="/assets/images/udl_lego_blocks-post750.jpg" type="image/jpg" media="(max-width:750px)">
+          <source srcset="/assets/images/udl_lego_blocks-post.jpg" type="image/jpg" media="(min-width:751px)">
+          <img src="/assets/images/udl_lego_blocks-post.jpg" style="" alt="building a design with different types of lego blocks" class="card-img-top" loading="lazy">
+          
+        </picture>
         <div class="card-body">
           <h3 class="card-title">Putting Universal Design for Learning into Action</h3>
           <p class="card-text">How the three brain networks make learning ‘stick’</p>
@@ -586,14 +655,19 @@
       </div>
       
       <div class="card mb-4">
-        <img
-          srcset="/assets/images/universal_design_for_learning_2post550.jpg 550w,
-                  /assets/images/universal_design_for_learning_2post750.jpg 750w
-                  /assets/images/universal_design_for_learning_2post.jpg 1200w"
-          src="/assets/images/universal_design_for_learning_2post.jpg"
-          sizes ="(max-width:650px) 550w, 750w, 1200w"
-          loading="lazy"
-          class="card-img-top" alt="Top-shot of a man lying on the floor">
+        <picture class="">
+          <source srcset="/assets/images/universal_design_for_learning_2post550.webp" type="image/webp"
+            media="(max-width:550px)">
+          <source srcset="/assets/images/universal_design_for_learning_2post750.webp" type="image/webp"
+            media="(max-width:750px)">
+          <source srcset="/assets/images/universal_design_for_learning_2post.webp" type="image/webp"
+            media="(min-width:751px)">
+          <source srcset="/assets/images/universal_design_for_learning_2post550.jpg" type="image/jpg" media="(max-width:550px)">
+          <source srcset="/assets/images/universal_design_for_learning_2post750.jpg" type="image/jpg" media="(max-width:750px)">
+          <source srcset="/assets/images/universal_design_for_learning_2post.jpg" type="image/jpg" media="(min-width:751px)">
+          <img src="/assets/images/universal_design_for_learning_2post.jpg" style="" alt="Top-shot of a man lying on the floor" class="card-img-top" loading="lazy">
+          
+        </picture>
         <div class="card-body">
           <h3 class="card-title">Universal Design for Learning: The history and the future </h3>
           <p class="card-text">The future of learning is changing, and how!</p>
@@ -602,14 +676,19 @@
       </div>
       
       <div class="card mb-4">
-        <img
-          srcset="/assets/images/Cognitive Biases_presentation_cover-post550.jpg 550w,
-                  /assets/images/Cognitive Biases_presentation_cover-post750.jpg 750w
-                  /assets/images/Cognitive Biases_presentation_cover-post.jpg 1200w"
-          src="/assets/images/Cognitive Biases_presentation_cover-post.jpg"
-          sizes ="(max-width:650px) 550w, 750w, 1200w"
-          loading="lazy"
-          class="card-img-top" alt="Cover for the Cognitive Biases Primer presentation">
+        <picture class="">
+          <source srcset="/assets/images/Cognitive Biases_presentation_cover-post550.webp" type="image/webp"
+            media="(max-width:550px)">
+          <source srcset="/assets/images/Cognitive Biases_presentation_cover-post750.webp" type="image/webp"
+            media="(max-width:750px)">
+          <source srcset="/assets/images/Cognitive Biases_presentation_cover-post.webp" type="image/webp"
+            media="(min-width:751px)">
+          <source srcset="/assets/images/Cognitive Biases_presentation_cover-post550.jpg" type="image/jpg" media="(max-width:550px)">
+          <source srcset="/assets/images/Cognitive Biases_presentation_cover-post750.jpg" type="image/jpg" media="(max-width:750px)">
+          <source srcset="/assets/images/Cognitive Biases_presentation_cover-post.jpg" type="image/jpg" media="(min-width:751px)">
+          <img src="/assets/images/Cognitive Biases_presentation_cover-post.jpg" style="" alt="Cover for the Cognitive Biases Primer presentation" class="card-img-top" loading="lazy">
+          
+        </picture>
         <div class="card-body">
           <h3 class="card-title">Cognitive Biases Primer</h3>
           <p class="card-text">Types, watch-outs and work-arounds!​</p>
@@ -618,14 +697,19 @@
       </div>
       
       <div class="card mb-4">
-        <img
-          srcset="/assets/images/iwd_event-post550.jpg 550w,
-                  /assets/images/iwd_event-post750.jpg 750w
-                  /assets/images/iwd_event-post.jpg 1200w"
-          src="/assets/images/iwd_event-post.jpg"
-          sizes ="(max-width:650px) 550w, 750w, 1200w"
-          loading="lazy"
-          class="card-img-top" alt="Cover image of the Certified Diversity Facilitator Event presentation">
+        <picture class="">
+          <source srcset="/assets/images/iwd_event-post550.webp" type="image/webp"
+            media="(max-width:550px)">
+          <source srcset="/assets/images/iwd_event-post750.webp" type="image/webp"
+            media="(max-width:750px)">
+          <source srcset="/assets/images/iwd_event-post.webp" type="image/webp"
+            media="(min-width:751px)">
+          <source srcset="/assets/images/iwd_event-post550.jpg" type="image/jpg" media="(max-width:550px)">
+          <source srcset="/assets/images/iwd_event-post750.jpg" type="image/jpg" media="(max-width:750px)">
+          <source srcset="/assets/images/iwd_event-post.jpg" type="image/jpg" media="(min-width:751px)">
+          <img src="/assets/images/iwd_event-post.jpg" style="" alt="Cover image of the Certified Diversity Facilitator Event presentation" class="card-img-top" loading="lazy">
+          
+        </picture>
         <div class="card-body">
           <h3 class="card-title">Celebrating work and diversity</h3>
           <p class="card-text">Many miles to go; enjoying every success</p>
@@ -634,14 +718,19 @@
       </div>
       
       <div class="card mb-4">
-        <img
-          srcset="/assets/images/virtual_performance_management-post550.jpg 550w,
-                  /assets/images/virtual_performance_management-post750.jpg 750w
-                  /assets/images/virtual_performance_management-post.jpg 1200w"
-          src="/assets/images/virtual_performance_management-post.jpg"
-          sizes ="(max-width:650px) 550w, 750w, 1200w"
-          loading="lazy"
-          class="card-img-top" alt="Two persons in a video call">
+        <picture class="">
+          <source srcset="/assets/images/virtual_performance_management-post550.webp" type="image/webp"
+            media="(max-width:550px)">
+          <source srcset="/assets/images/virtual_performance_management-post750.webp" type="image/webp"
+            media="(max-width:750px)">
+          <source srcset="/assets/images/virtual_performance_management-post.webp" type="image/webp"
+            media="(min-width:751px)">
+          <source srcset="/assets/images/virtual_performance_management-post550.jpg" type="image/jpg" media="(max-width:550px)">
+          <source srcset="/assets/images/virtual_performance_management-post750.jpg" type="image/jpg" media="(max-width:750px)">
+          <source srcset="/assets/images/virtual_performance_management-post.jpg" type="image/jpg" media="(min-width:751px)">
+          <img src="/assets/images/virtual_performance_management-post.jpg" style="" alt="Two persons in a video call" class="card-img-top" loading="lazy">
+          
+        </picture>
         <div class="card-body">
           <h3 class="card-title">Making Virtual Performance Management count</h3>
           <p class="card-text">One-on-one’s can be effective, even on a video call</p>
@@ -650,14 +739,19 @@
       </div>
       
       <div class="card mb-4">
-        <img
-          srcset="/assets/images/gtm_changes_rough_sea-post550.jpg 550w,
-                  /assets/images/gtm_changes_rough_sea-post750.jpg 750w
-                  /assets/images/gtm_changes_rough_sea-post.jpg 1200w"
-          src="/assets/images/gtm_changes_rough_sea-post.jpg"
-          sizes ="(max-width:650px) 550w, 750w, 1200w"
-          loading="lazy"
-          class="card-img-top" alt="Crashing Waves">
+        <picture class="">
+          <source srcset="/assets/images/gtm_changes_rough_sea-post550.webp" type="image/webp"
+            media="(max-width:550px)">
+          <source srcset="/assets/images/gtm_changes_rough_sea-post750.webp" type="image/webp"
+            media="(max-width:750px)">
+          <source srcset="/assets/images/gtm_changes_rough_sea-post.webp" type="image/webp"
+            media="(min-width:751px)">
+          <source srcset="/assets/images/gtm_changes_rough_sea-post550.jpg" type="image/jpg" media="(max-width:550px)">
+          <source srcset="/assets/images/gtm_changes_rough_sea-post750.jpg" type="image/jpg" media="(max-width:750px)">
+          <source srcset="/assets/images/gtm_changes_rough_sea-post.jpg" type="image/jpg" media="(min-width:751px)">
+          <img src="/assets/images/gtm_changes_rough_sea-post.jpg" style="" alt="Crashing Waves" class="card-img-top" loading="lazy">
+          
+        </picture>
         <div class="card-body">
           <h3 class="card-title">Adapting GTM practice to the New Normal</h3>
           <p class="card-text">We have had to adapt quickly to deal with the changes bought on by the pandemic</p>
@@ -666,14 +760,19 @@
       </div>
       
       <div class="card mb-4">
-        <img
-          srcset="/assets/images/age_of_agility-post550.jpg 550w,
-                  /assets/images/age_of_agility-post750.jpg 750w
-                  /assets/images/age_of_agility-post.jpg 1200w"
-          src="/assets/images/age_of_agility-post.jpg"
-          sizes ="(max-width:650px) 550w, 750w, 1200w"
-          loading="lazy"
-          class="card-img-top" alt="A child building a rocket ship with blocks">
+        <picture class="">
+          <source srcset="/assets/images/age_of_agility-post550.webp" type="image/webp"
+            media="(max-width:550px)">
+          <source srcset="/assets/images/age_of_agility-post750.webp" type="image/webp"
+            media="(max-width:750px)">
+          <source srcset="/assets/images/age_of_agility-post.webp" type="image/webp"
+            media="(min-width:751px)">
+          <source srcset="/assets/images/age_of_agility-post550.jpg" type="image/jpg" media="(max-width:550px)">
+          <source srcset="/assets/images/age_of_agility-post750.jpg" type="image/jpg" media="(max-width:750px)">
+          <source srcset="/assets/images/age_of_agility-post.jpg" type="image/jpg" media="(min-width:751px)">
+          <img src="/assets/images/age_of_agility-post.jpg" style="" alt="A child building a rocket ship with blocks" class="card-img-top" loading="lazy">
+          
+        </picture>
         <div class="card-body">
           <h3 class="card-title">Usher in the era of Agility</h3>
           <p class="card-text">2021 is the year of agility</p>
@@ -682,14 +781,19 @@
       </div>
       
       <div class="card mb-4">
-        <img
-          srcset="/assets/images/universal_design_language_introduction-post550.jpg 550w,
-                  /assets/images/universal_design_language_introduction-post750.jpg 750w
-                  /assets/images/universal_design_language_introduction-post.jpg 1200w"
-          src="/assets/images/universal_design_language_introduction-post.jpg"
-          sizes ="(max-width:650px) 550w, 750w, 1200w"
-          loading="lazy"
-          class="card-img-top" alt="A child building a rocket ship with blocks">
+        <picture class="">
+          <source srcset="/assets/images/universal_design_language_introduction-post550.webp" type="image/webp"
+            media="(max-width:550px)">
+          <source srcset="/assets/images/universal_design_language_introduction-post750.webp" type="image/webp"
+            media="(max-width:750px)">
+          <source srcset="/assets/images/universal_design_language_introduction-post.webp" type="image/webp"
+            media="(min-width:751px)">
+          <source srcset="/assets/images/universal_design_language_introduction-post550.jpg" type="image/jpg" media="(max-width:550px)">
+          <source srcset="/assets/images/universal_design_language_introduction-post750.jpg" type="image/jpg" media="(max-width:750px)">
+          <source srcset="/assets/images/universal_design_language_introduction-post.jpg" type="image/jpg" media="(min-width:751px)">
+          <img src="/assets/images/universal_design_language_introduction-post.jpg" style="" alt="A child building a rocket ship with blocks" class="card-img-top" loading="lazy">
+          
+        </picture>
         <div class="card-body">
           <h3 class="card-title">Universal Design for Learning - An Introduction</h3>
           <p class="card-text">Making learning design accessible to a diverse set of learners</p>
@@ -698,14 +802,19 @@
       </div>
       
       <div class="card mb-4">
-        <img
-          srcset="/assets/images/unconscious_biases-post550.jpg 550w,
-                  /assets/images/unconscious_biases-post750.jpg 750w
-                  /assets/images/unconscious_biases-post.jpg 1200w"
-          src="/assets/images/unconscious_biases-post.jpg"
-          sizes ="(max-width:650px) 550w, 750w, 1200w"
-          loading="lazy"
-          class="card-img-top" alt="view of lots of different types of people">
+        <picture class="">
+          <source srcset="/assets/images/unconscious_biases-post550.webp" type="image/webp"
+            media="(max-width:550px)">
+          <source srcset="/assets/images/unconscious_biases-post750.webp" type="image/webp"
+            media="(max-width:750px)">
+          <source srcset="/assets/images/unconscious_biases-post.webp" type="image/webp"
+            media="(min-width:751px)">
+          <source srcset="/assets/images/unconscious_biases-post550.jpg" type="image/jpg" media="(max-width:550px)">
+          <source srcset="/assets/images/unconscious_biases-post750.jpg" type="image/jpg" media="(max-width:750px)">
+          <source srcset="/assets/images/unconscious_biases-post.jpg" type="image/jpg" media="(min-width:751px)">
+          <img src="/assets/images/unconscious_biases-post.jpg" style="" alt="view of lots of different types of people" class="card-img-top" loading="lazy">
+          
+        </picture>
         <div class="card-body">
           <h3 class="card-title">Unconscious biases and the conundrums of parenting</h3>
           <p class="card-text">Charity begins at home, but what about unconscious biases? This is me showing courage enough to look inside and reflect</p>
@@ -714,14 +823,19 @@
       </div>
       
       <div class="card mb-4">
-        <img
-          srcset="/assets/images/bite_sized-post550.jpg 550w,
-                  /assets/images/bite_sized-post750.jpg 750w
-                  /assets/images/bite_sized-post.jpg 1200w"
-          src="/assets/images/bite_sized-post.jpg"
-          sizes ="(max-width:650px) 550w, 750w, 1200w"
-          loading="lazy"
-          class="card-img-top" alt="Ants breaking down a bit piece of sugar">
+        <picture class="">
+          <source srcset="/assets/images/bite_sized-post550.webp" type="image/webp"
+            media="(max-width:550px)">
+          <source srcset="/assets/images/bite_sized-post750.webp" type="image/webp"
+            media="(max-width:750px)">
+          <source srcset="/assets/images/bite_sized-post.webp" type="image/webp"
+            media="(min-width:751px)">
+          <source srcset="/assets/images/bite_sized-post550.jpg" type="image/jpg" media="(max-width:550px)">
+          <source srcset="/assets/images/bite_sized-post750.jpg" type="image/jpg" media="(max-width:750px)">
+          <source srcset="/assets/images/bite_sized-post.jpg" type="image/jpg" media="(min-width:751px)">
+          <img src="/assets/images/bite_sized-post.jpg" style="" alt="Ants breaking down a bit piece of sugar" class="card-img-top" loading="lazy">
+          
+        </picture>
         <div class="card-body">
           <h3 class="card-title">Bite-size your way to productivity</h3>
           <p class="card-text">There is only one way to eat an elephant - a bite at a time - Desmond Tutu</p>
@@ -730,14 +844,19 @@
       </div>
       
       <div class="card mb-4">
-        <img
-          srcset="/assets/images/path_lined_by_old_and_new_trees-post550.jpg 550w,
-                  /assets/images/path_lined_by_old_and_new_trees-post750.jpg 750w
-                  /assets/images/path_lined_by_old_and_new_trees-post.jpg 1200w"
-          src="/assets/images/path_lined_by_old_and_new_trees-post.jpg"
-          sizes ="(max-width:650px) 550w, 750w, 1200w"
-          loading="lazy"
-          class="card-img-top" alt="a path lined by old and new trees">
+        <picture class="">
+          <source srcset="/assets/images/path_lined_by_old_and_new_trees-post550.webp" type="image/webp"
+            media="(max-width:550px)">
+          <source srcset="/assets/images/path_lined_by_old_and_new_trees-post750.webp" type="image/webp"
+            media="(max-width:750px)">
+          <source srcset="/assets/images/path_lined_by_old_and_new_trees-post.webp" type="image/webp"
+            media="(min-width:751px)">
+          <source srcset="/assets/images/path_lined_by_old_and_new_trees-post550.jpg" type="image/jpg" media="(max-width:550px)">
+          <source srcset="/assets/images/path_lined_by_old_and_new_trees-post750.jpg" type="image/jpg" media="(max-width:750px)">
+          <source srcset="/assets/images/path_lined_by_old_and_new_trees-post.jpg" type="image/jpg" media="(min-width:751px)">
+          <img src="/assets/images/path_lined_by_old_and_new_trees-post.jpg" style="" alt="a path lined by old and new trees" class="card-img-top" loading="lazy">
+          
+        </picture>
         <div class="card-body">
           <h3 class="card-title">To New Beginnings</h3>
           <p class="card-text">The learning paradigm of 2020s is changing, and how!</p>
@@ -746,34 +865,23 @@
       </div>
       
       <div class="card mb-4">
-        <img
-          srcset="/assets/images/hiring_culture_fit-post550.jpg 550w,
-                  /assets/images/hiring_culture_fit-post750.jpg 750w
-                  /assets/images/hiring_culture_fit-post.jpg 1200w"
-          src="/assets/images/hiring_culture_fit-post.jpg"
-          sizes ="(max-width:650px) 550w, 750w, 1200w"
-          loading="lazy"
-          class="card-img-top" alt="an unusually dressed job candidate">
+        <picture class="">
+          <source srcset="/assets/images/hiring_culture_fit-post550.webp" type="image/webp"
+            media="(max-width:550px)">
+          <source srcset="/assets/images/hiring_culture_fit-post750.webp" type="image/webp"
+            media="(max-width:750px)">
+          <source srcset="/assets/images/hiring_culture_fit-post.webp" type="image/webp"
+            media="(min-width:751px)">
+          <source srcset="/assets/images/hiring_culture_fit-post550.jpg" type="image/jpg" media="(max-width:550px)">
+          <source srcset="/assets/images/hiring_culture_fit-post750.jpg" type="image/jpg" media="(max-width:750px)">
+          <source srcset="/assets/images/hiring_culture_fit-post.jpg" type="image/jpg" media="(min-width:751px)">
+          <img src="/assets/images/hiring_culture_fit-post.jpg" style="" alt="an unusually dressed job candidate" class="card-img-top" loading="lazy">
+          
+        </picture>
         <div class="card-body">
           <h3 class="card-title">Of cultures and new hires</h3>
           <p class="card-text">There’s a lot of talk about culture fit, when it comes to hiring for our teams.</p>
           <a href="/organisation_development/of_cultures_and_new_hires" class="stretched-link"></a>
-        </div>
-      </div>
-      
-      <div class="card mb-4">
-        <img
-          srcset="/assets/images/design_thinking-post550.jpg 550w,
-                  /assets/images/design_thinking-post750.jpg 750w
-                  /assets/images/design_thinking-post.jpg 1200w"
-          src="/assets/images/design_thinking-post.jpg"
-          sizes ="(max-width:650px) 550w, 750w, 1200w"
-          loading="lazy"
-          class="card-img-top" alt="brainstorming with coloured sticky notes">
-        <div class="card-body">
-          <h3 class="card-title">An introduction to Design Thinking</h3>
-          <p class="card-text">First thoughts on a much talked about subject of Design Thinking!</p>
-          <a href="/user_experience/design_thinking" class="stretched-link"></a>
         </div>
       </div>
       
