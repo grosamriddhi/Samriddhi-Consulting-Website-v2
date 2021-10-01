@@ -1,8 +1,8 @@
 {
 	"version": 3,
-	"file": "styles_old.css",
+	"file": "styles.css",
 	"sources": [
-		"styles_old.scss",
+		"styles.scss",
 		"assets/css/main.scss",
 		"node_modules/bootstrap/scss/bootstrap.scss",
 		"node_modules/bootstrap/scss/_functions.scss",
