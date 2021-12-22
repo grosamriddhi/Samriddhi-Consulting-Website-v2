@@ -1,6 +1,15 @@
 [
   
     {
+      "title"    : "The top 3 growth lessons to learn from 2021",
+      "category" : "",
+      "tags"     : "new-normal,, growth,, learning,, innovation,, sustainability",
+      "url"      : "/organisation_development/top-3-growth-lessons-of-2021",
+      "date"     : "2021-12-21 10:30:00 +0530",
+      "content"  :  "[\n  {% for post in site.posts %}\n    {\n      \"title\"    : \"{{ post.title | escape }}\",\n      \"category\" : \"{{ post.category }}\",\n      \"tags\"     : \"{{ post.tags | join: ', ' }}\",\n      \"url\"      : \"{{ site.baseurl }}{{ post.url }}\",\n      \"date\"     : \"{{ post.date }}\",\n      \"content\"  :  {{ page.content | jsonify }}\n    } {% unless forloop.last %},{% endunless %}\n  {% endfor %}\n  ,\n  {% for page in site.pages %}\n   {\n     {% if page.title != nil %}\n        \"title\"    : \"{{ page.title | escape }}\",\n        \"category\" : \"{{ page.category }}\",\n        \"tags\"     : \"{{ page.tags | join: ', ' }}\",\n        \"url\"      : \"{{ site.baseurl }}{{ page.url }}\",\n        \"date\"     : \"{{ page.date }}\",\n        \"content\"  :  {{ page.content | jsonify }}\n     {% endif %}\n   } {% unless forloop.last %},{% endunless %}\n  {% endfor %}\n]\n"
+    } ,
+  
+    {
       "title"    : "The debate about returning to the office",
       "category" : "",
       "tags"     : "return, to, work,, organisation, design,, new-normal,, strategy,, remote, work",
