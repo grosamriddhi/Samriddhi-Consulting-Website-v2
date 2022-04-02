@@ -1,6 +1,15 @@
 [
   
     {
+      "title"    : "The Great Manager Sandwich",
+      "category" : "",
+      "tags"     : "the, great, resignation,, empathy,, manager,, leadership,, change",
+      "url"      : "/organisation_development/great-manager-sandwich",
+      "date"     : "2022-04-02 10:30:00 +0530",
+      "content"  :  "[\n  {% for post in site.posts %}\n    {\n      \"title\"    : \"{{ post.title | escape }}\",\n      \"category\" : \"{{ post.category }}\",\n      \"tags\"     : \"{{ post.tags | join: ', ' }}\",\n      \"url\"      : \"{{ site.baseurl }}{{ post.url }}\",\n      \"date\"     : \"{{ post.date }}\",\n      \"content\"  :  {{ page.content | jsonify }}\n    } {% unless forloop.last %},{% endunless %}\n  {% endfor %}\n  ,\n  {% for page in site.pages %}\n   {\n     {% if page.title != nil %}\n        \"title\"    : \"{{ page.title | escape }}\",\n        \"category\" : \"{{ page.category }}\",\n        \"tags\"     : \"{{ page.tags | join: ', ' }}\",\n        \"url\"      : \"{{ site.baseurl }}{{ page.url }}\",\n        \"date\"     : \"{{ page.date }}\",\n        \"content\"  :  {{ page.content | jsonify }}\n     {% endif %}\n   } {% unless forloop.last %},{% endunless %}\n  {% endfor %}\n]\n"
+    } ,
+  
+    {
       "title"    : "Burnout is closing in. Here&#39;s how to keep it at bay",
       "category" : "",
       "tags"     : "new-beginnings,, empathy,, leadership,, growth",
